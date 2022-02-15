@@ -119,7 +119,7 @@
             this.btnIngresar.Location = new System.Drawing.Point(399, 400);
             this.btnIngresar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(246, 27);
+            this.btnIngresar.Size = new System.Drawing.Size(157, 27);
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.Text = "INGRESAR";
             this.btnIngresar.UseVisualStyleBackColor = true;
