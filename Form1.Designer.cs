@@ -38,6 +38,7 @@
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.lblRegistrarse = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picbImagen)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,20 +47,19 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.Color.Black;
-            this.lblTitulo.Location = new System.Drawing.Point(364, 37);
-            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTitulo.Location = new System.Drawing.Point(273, 30);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(281, 46);
+            this.lblTitulo.Size = new System.Drawing.Size(227, 37);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Shopping World";
             // 
             // picbImagen
             // 
             this.picbImagen.Image = global::ProyectGR3.Properties.Resources.dfe2bf416023b848bb590f2ff5509162;
-            this.picbImagen.Location = new System.Drawing.Point(445, 96);
-            this.picbImagen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picbImagen.Location = new System.Drawing.Point(334, 78);
+            this.picbImagen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.picbImagen.Name = "picbImagen";
-            this.picbImagen.Size = new System.Drawing.Size(133, 62);
+            this.picbImagen.Size = new System.Drawing.Size(100, 50);
             this.picbImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picbImagen.TabIndex = 1;
             this.picbImagen.TabStop = false;
@@ -68,58 +68,55 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(241, 261);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNombre.Location = new System.Drawing.Point(181, 212);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(91, 24);
+            this.lblNombre.Size = new System.Drawing.Size(73, 18);
             this.lblNombre.TabIndex = 2;
             this.lblNombre.Text = "Nombre:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(285, 331);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(214, 269);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 16);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 3;
             // 
             // lblCorreo
             // 
             this.lblCorreo.AutoSize = true;
             this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCorreo.Location = new System.Drawing.Point(243, 310);
-            this.lblCorreo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCorreo.Location = new System.Drawing.Point(182, 252);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(190, 24);
+            this.lblCorreo.Size = new System.Drawing.Size(155, 18);
             this.lblCorreo.TabIndex = 4;
             this.lblCorreo.Text = "Correo electronico:";
             // 
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(599, 257);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNombre.Location = new System.Drawing.Point(449, 209);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(227, 26);
+            this.txtNombre.Size = new System.Drawing.Size(171, 22);
             this.txtNombre.TabIndex = 5;
             // 
             // txtCorreo
             // 
             this.txtCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreo.Location = new System.Drawing.Point(599, 310);
-            this.txtCorreo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCorreo.Location = new System.Drawing.Point(449, 252);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(227, 26);
+            this.txtCorreo.Size = new System.Drawing.Size(171, 22);
             this.txtCorreo.TabIndex = 6;
             // 
             // btnIngresar
             // 
             this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIngresar.Location = new System.Drawing.Point(445, 402);
-            this.btnIngresar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnIngresar.Location = new System.Drawing.Point(334, 327);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(119, 27);
+            this.btnIngresar.Size = new System.Drawing.Size(89, 22);
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.Text = "INGRESAR";
             this.btnIngresar.UseVisualStyleBackColor = true;
@@ -128,19 +125,28 @@
             // 
             this.lblRegistrarse.AutoSize = true;
             this.lblRegistrarse.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRegistrarse.Location = new System.Drawing.Point(469, 187);
-            this.lblRegistrarse.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRegistrarse.Location = new System.Drawing.Point(352, 152);
             this.lblRegistrarse.Name = "lblRegistrarse";
-            this.lblRegistrarse.Size = new System.Drawing.Size(87, 25);
+            this.lblRegistrarse.Size = new System.Drawing.Size(71, 20);
             this.lblRegistrarse.TabIndex = 8;
             this.lblRegistrarse.Text = "Registro";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(347, 372);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Prueba de ram";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Menu;
-            this.ClientSize = new System.Drawing.Size(1067, 545);
+            this.ClientSize = new System.Drawing.Size(800, 443);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblRegistrarse);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.txtCorreo);
@@ -151,7 +157,7 @@
             this.Controls.Add(this.picbImagen);
             this.Controls.Add(this.lblTitulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Tienda de ropa";
@@ -173,6 +179,7 @@
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Label lblRegistrarse;
+        private System.Windows.Forms.Label label2;
     }
 }
 
