@@ -22,6 +22,5 @@ namespace ProyectGR3
             btnIngresar.Enabled = false;
         }
 
-
     }
 }
