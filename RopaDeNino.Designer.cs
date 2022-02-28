@@ -382,7 +382,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RopaDeNino";
             this.Text = "Ropa de niños";
-            this.Load += new System.EventHandler(this.RopaDeNino_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1P)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

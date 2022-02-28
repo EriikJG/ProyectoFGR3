@@ -16,10 +16,5 @@ namespace ProyectGR3
         {
             InitializeComponent();
         }
-
-        private void RopaDeNino_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
