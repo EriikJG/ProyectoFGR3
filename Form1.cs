@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace ProyectGR3
 {
-    public partial class VentanaCategoria : Form
+    public partial class Form1 : Form
     {
-        public VentanaCategoria()
+        public Form1()
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            btnIngresar.Enabled = false;
+        }
+
     }
 }
