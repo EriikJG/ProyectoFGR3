@@ -12,7 +12,7 @@ namespace ProyectGR3
 {
     public partial class VentanaCategoria : Form
     {
-        Program.Producto cliente = new Program.Producto ();
+        Program.Producto producto = new Program.Producto ();
         public VentanaCategoria()
         {
             InitializeComponent();
@@ -20,37 +20,42 @@ namespace ProyectGR3
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            cliente.categoria = cbmCategoria.Text;
+            producto.categoria = cbmCategoria.Text;
+            
+                
 
-            if (cliente.categoria == "Niños")
-            {
-                this.Hide();
+                if (producto.categoria == "Niños")
+                {
+                    this.Hide();
 
-                ventanaNino ventanaNino = new ventanaNino();
-                ventanaNino.Show();
+                    ventanaNino ventanaNinos = new ventanaNino();
+                    ventanaNinos.Show();
+                    
             }
 
-            if (cliente.categoria == "Hombre")
-            {
-                this.Hide();
+                if (producto.categoria == "Hombre")
+                {
+                    this.Hide();
 
-                VentanaHombre ventanaHombre = new VentanaHombre();
-                ventanaHombre.Show();
-            }
-            if (cliente.categoria == "Mujer")
-            {
-                this.Hide();
+                    VentanaHombre ventanaHombre = new VentanaHombre();
+                    ventanaHombre.Show();
+                }
+                if (producto.categoria == "Mujer")
+                {
+                    this.Hide();
 
-                VentanaMujer ventanaMujer = new VentanaMujer();
-                ventanaMujer.Show();
-            }
+                    VentanaMujer ventanaMujer = new VentanaMujer();
+                    ventanaMujer.Show();
+                }
+
+            
 
 
         }
 
         private void VentanaCategoria_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
