@@ -84,7 +84,7 @@
             "Hombre",
             "Mujer",
             "Niños"});
-            this.cbmCategoria.Location = new System.Drawing.Point(306, 263);
+            this.cbmCategoria.Location = new System.Drawing.Point(338, 258);
             this.cbmCategoria.Name = "cbmCategoria";
             this.cbmCategoria.Size = new System.Drawing.Size(144, 21);
             this.cbmCategoria.TabIndex = 4;
