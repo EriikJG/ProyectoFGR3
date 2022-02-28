@@ -195,6 +195,7 @@
             this.btnHComprar.TabIndex = 15;
             this.btnHComprar.Text = "Comprar";
             this.btnHComprar.UseVisualStyleBackColor = true;
+            this.btnHComprar.Click += new System.EventHandler(this.btnHComprar_Click);
             // 
             // lblHRedireccion
             // 
@@ -360,6 +361,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VentanaHombre";
             this.Text = "HOMBRE";
+            this.Load += new System.EventHandler(this.VentanaHombre_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picbImagen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

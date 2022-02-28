@@ -16,5 +16,16 @@ namespace ProyectGR3
         {
             InitializeComponent();
         }
+
+
+        private void VentanaHombre_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHComprar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

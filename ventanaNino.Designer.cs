@@ -184,6 +184,7 @@
             this.btnNComprar.TabIndex = 32;
             this.btnNComprar.Text = "COMPRAR";
             this.btnNComprar.UseVisualStyleBackColor = true;
+            this.btnNComprar.Click += new System.EventHandler(this.btnNComprar_Click);
             // 
             // cmbColorN
             // 
@@ -376,6 +377,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ventanaNino";
             this.Text = "Niños";
+            this.Load += new System.EventHandler(this.ventanaNino_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
