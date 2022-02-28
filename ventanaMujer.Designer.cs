@@ -34,41 +34,42 @@
             this.lblColor = new System.Windows.Forms.Label();
             this.cmbTalla = new System.Windows.Forms.ComboBox();
             this.cmbColor = new System.Windows.Forms.ComboBox();
-            this.pct = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.rbtMCamiseta = new System.Windows.Forms.RadioButton();
-            this.rbtMBlusa = new System.Windows.Forms.RadioButton();
-            this.rbtMBuso = new System.Windows.Forms.RadioButton();
-            this.rbtMPantalon = new System.Windows.Forms.RadioButton();
+            this.rbtMPrenda1 = new System.Windows.Forms.RadioButton();
+            this.rbtMPrenda2 = new System.Windows.Forms.RadioButton();
+            this.rbtMPrenda3 = new System.Windows.Forms.RadioButton();
+            this.rbtMPrenda4 = new System.Windows.Forms.RadioButton();
             this.lblMTotal = new System.Windows.Forms.Label();
             this.btnMComprar = new System.Windows.Forms.Button();
             this.btnMAgregarCarrito = new System.Windows.Forms.Button();
-            this.lblMPregunta = new System.Windows.Forms.Label();
+            this.lblMRedireccion = new System.Windows.Forms.Label();
             this.rbtMSi = new System.Windows.Forms.RadioButton();
             this.rbtMNo = new System.Windows.Forms.RadioButton();
             this.lblMSeleccionCategoria = new System.Windows.Forms.Label();
             this.cmbSeleccionCategoria = new System.Windows.Forms.ComboBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pct)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pct = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct)).BeginInit();
             this.SuspendLayout();
             // 
             // lblDama
             // 
             this.lblDama.AutoSize = true;
             this.lblDama.Font = new System.Drawing.Font("Palatino Linotype", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDama.Location = new System.Drawing.Point(486, 9);
+            this.lblDama.Location = new System.Drawing.Point(364, 7);
+            this.lblDama.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDama.Name = "lblDama";
-            this.lblDama.Size = new System.Drawing.Size(144, 50);
+            this.lblDama.Size = new System.Drawing.Size(115, 41);
             this.lblDama.TabIndex = 0;
             this.lblDama.Text = "DAMA";
             this.lblDama.Click += new System.EventHandler(this.label1_Click);
@@ -76,20 +77,22 @@
             // lblTalla
             // 
             this.lblTalla.AutoSize = true;
-            this.lblTalla.Location = new System.Drawing.Point(411, 698);
+            this.lblTalla.Location = new System.Drawing.Point(327, 519);
+            this.lblTalla.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTalla.Name = "lblTalla";
-            this.lblTalla.Size = new System.Drawing.Size(48, 16);
+            this.lblTalla.Size = new System.Drawing.Size(33, 13);
             this.lblTalla.TabIndex = 1;
-            this.lblTalla.Text = "TALLA";
+            this.lblTalla.Text = "Talla:";
             // 
             // lblColor
             // 
             this.lblColor.AutoSize = true;
-            this.lblColor.Location = new System.Drawing.Point(411, 745);
+            this.lblColor.Location = new System.Drawing.Point(327, 560);
+            this.lblColor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblColor.Name = "lblColor";
-            this.lblColor.Size = new System.Drawing.Size(53, 16);
+            this.lblColor.Size = new System.Drawing.Size(34, 13);
             this.lblColor.TabIndex = 2;
-            this.lblColor.Text = "COLOR";
+            this.lblColor.Text = "Color:";
             // 
             // cmbTalla
             // 
@@ -98,9 +101,10 @@
             "S",
             "M",
             "L"});
-            this.cmbTalla.Location = new System.Drawing.Point(518, 698);
+            this.cmbTalla.Location = new System.Drawing.Point(366, 516);
+            this.cmbTalla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbTalla.Name = "cmbTalla";
-            this.cmbTalla.Size = new System.Drawing.Size(121, 24);
+            this.cmbTalla.Size = new System.Drawing.Size(92, 21);
             this.cmbTalla.TabIndex = 3;
             // 
             // cmbColor
@@ -115,138 +119,108 @@
             "ROSA",
             "GRIS",
             "NEGRO"});
-            this.cmbColor.Location = new System.Drawing.Point(518, 737);
+            this.cmbColor.Location = new System.Drawing.Point(365, 557);
+            this.cmbColor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbColor.Name = "cmbColor";
-            this.cmbColor.Size = new System.Drawing.Size(121, 24);
+            this.cmbColor.Size = new System.Drawing.Size(92, 21);
             this.cmbColor.TabIndex = 4;
             // 
-            // pct
+            // rbtMPrenda1
             // 
-            this.pct.Image = ((System.Drawing.Image)(resources.GetObject("pct.Image")));
-            this.pct.Location = new System.Drawing.Point(94, 49);
-            this.pct.Name = "pct";
-            this.pct.Size = new System.Drawing.Size(256, 265);
-            this.pct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct.TabIndex = 5;
-            this.pct.TabStop = false;
+            this.rbtMPrenda1.AutoSize = true;
+            this.rbtMPrenda1.Location = new System.Drawing.Point(109, 260);
+            this.rbtMPrenda1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMPrenda1.Name = "rbtMPrenda1";
+            this.rbtMPrenda1.Size = new System.Drawing.Size(125, 17);
+            this.rbtMPrenda1.TabIndex = 11;
+            this.rbtMPrenda1.TabStop = true;
+            this.rbtMPrenda1.Text = "CAMISETA ESPAÑA";
+            this.rbtMPrenda1.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // rbtMPrenda2
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(735, 49);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(256, 265);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.rbtMPrenda2.AutoSize = true;
+            this.rbtMPrenda2.Location = new System.Drawing.Point(598, 254);
+            this.rbtMPrenda2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMPrenda2.Name = "rbtMPrenda2";
+            this.rbtMPrenda2.Size = new System.Drawing.Size(104, 17);
+            this.rbtMPrenda2.TabIndex = 12;
+            this.rbtMPrenda2.TabStop = true;
+            this.rbtMPrenda2.Text = "BLUSA ENCAJE";
+            this.rbtMPrenda2.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // rbtMPrenda3
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(94, 346);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(269, 270);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
+            this.rbtMPrenda3.AutoSize = true;
+            this.rbtMPrenda3.Location = new System.Drawing.Point(122, 505);
+            this.rbtMPrenda3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMPrenda3.Name = "rbtMPrenda3";
+            this.rbtMPrenda3.Size = new System.Drawing.Size(106, 17);
+            this.rbtMPrenda3.TabIndex = 14;
+            this.rbtMPrenda3.TabStop = true;
+            this.rbtMPrenda3.Text = "SUÉTER SNOW";
+            this.rbtMPrenda3.UseVisualStyleBackColor = true;
+            this.rbtMPrenda3.CheckedChanged += new System.EventHandler(this.rbtMBuso_CheckedChanged);
             // 
-            // pictureBox3
+            // rbtMPrenda4
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(733, 339);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(258, 274);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            // 
-            // rbtMCamiseta
-            // 
-            this.rbtMCamiseta.AutoSize = true;
-            this.rbtMCamiseta.Location = new System.Drawing.Point(145, 320);
-            this.rbtMCamiseta.Name = "rbtMCamiseta";
-            this.rbtMCamiseta.Size = new System.Drawing.Size(154, 20);
-            this.rbtMCamiseta.TabIndex = 11;
-            this.rbtMCamiseta.TabStop = true;
-            this.rbtMCamiseta.Text = "CAMISETA ESPAÑA";
-            this.rbtMCamiseta.UseVisualStyleBackColor = true;
-            // 
-            // rbtMBlusa
-            // 
-            this.rbtMBlusa.AutoSize = true;
-            this.rbtMBlusa.Location = new System.Drawing.Point(797, 313);
-            this.rbtMBlusa.Name = "rbtMBlusa";
-            this.rbtMBlusa.Size = new System.Drawing.Size(128, 20);
-            this.rbtMBlusa.TabIndex = 12;
-            this.rbtMBlusa.TabStop = true;
-            this.rbtMBlusa.Text = "BLUSA ENCAJE";
-            this.rbtMBlusa.UseVisualStyleBackColor = true;
-            // 
-            // rbtMBuso
-            // 
-            this.rbtMBuso.AutoSize = true;
-            this.rbtMBuso.Location = new System.Drawing.Point(162, 622);
-            this.rbtMBuso.Name = "rbtMBuso";
-            this.rbtMBuso.Size = new System.Drawing.Size(129, 20);
-            this.rbtMBuso.TabIndex = 14;
-            this.rbtMBuso.TabStop = true;
-            this.rbtMBuso.Text = "SUÉTER SNOW";
-            this.rbtMBuso.UseVisualStyleBackColor = true;
-            this.rbtMBuso.CheckedChanged += new System.EventHandler(this.rbtMBuso_CheckedChanged);
-            // 
-            // rbtMPantalon
-            // 
-            this.rbtMPantalon.AutoSize = true;
-            this.rbtMPantalon.Location = new System.Drawing.Point(788, 622);
-            this.rbtMPantalon.Name = "rbtMPantalon";
-            this.rbtMPantalon.Size = new System.Drawing.Size(171, 20);
-            this.rbtMPantalon.TabIndex = 15;
-            this.rbtMPantalon.TabStop = true;
-            this.rbtMPantalon.Text = "PANTALÓN ULTIMATE";
-            this.rbtMPantalon.UseVisualStyleBackColor = true;
+            this.rbtMPrenda4.AutoSize = true;
+            this.rbtMPrenda4.Location = new System.Drawing.Point(573, 505);
+            this.rbtMPrenda4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMPrenda4.Name = "rbtMPrenda4";
+            this.rbtMPrenda4.Size = new System.Drawing.Size(140, 17);
+            this.rbtMPrenda4.TabIndex = 15;
+            this.rbtMPrenda4.TabStop = true;
+            this.rbtMPrenda4.Text = "PANTALÓN ULTIMATE";
+            this.rbtMPrenda4.UseVisualStyleBackColor = true;
             // 
             // lblMTotal
             // 
             this.lblMTotal.AutoSize = true;
-            this.lblMTotal.Location = new System.Drawing.Point(871, 9);
+            this.lblMTotal.Location = new System.Drawing.Point(653, 7);
+            this.lblMTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMTotal.Name = "lblMTotal";
-            this.lblMTotal.Size = new System.Drawing.Size(70, 16);
+            this.lblMTotal.Size = new System.Drawing.Size(60, 13);
             this.lblMTotal.TabIndex = 17;
             this.lblMTotal.Text = "TOTAL $ : ";
             // 
             // btnMComprar
             // 
-            this.btnMComprar.Location = new System.Drawing.Point(476, 790);
+            this.btnMComprar.Location = new System.Drawing.Point(365, 591);
+            this.btnMComprar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMComprar.Name = "btnMComprar";
-            this.btnMComprar.Size = new System.Drawing.Size(86, 23);
+            this.btnMComprar.Size = new System.Drawing.Size(87, 19);
             this.btnMComprar.TabIndex = 18;
             this.btnMComprar.Text = "COMPRAR";
             this.btnMComprar.UseVisualStyleBackColor = true;
             // 
             // btnMAgregarCarrito
             // 
-            this.btnMAgregarCarrito.Location = new System.Drawing.Point(424, 819);
+            this.btnMAgregarCarrito.Location = new System.Drawing.Point(339, 614);
+            this.btnMAgregarCarrito.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMAgregarCarrito.Name = "btnMAgregarCarrito";
-            this.btnMAgregarCarrito.Size = new System.Drawing.Size(186, 23);
+            this.btnMAgregarCarrito.Size = new System.Drawing.Size(140, 19);
             this.btnMAgregarCarrito.TabIndex = 19;
             this.btnMAgregarCarrito.Text = "AGREGAR AL CARRITO";
             this.btnMAgregarCarrito.UseVisualStyleBackColor = true;
             // 
-            // lblMPregunta
+            // lblMRedireccion
             // 
-            this.lblMPregunta.AutoSize = true;
-            this.lblMPregunta.Location = new System.Drawing.Point(313, 868);
-            this.lblMPregunta.Name = "lblMPregunta";
-            this.lblMPregunta.Size = new System.Drawing.Size(195, 16);
-            this.lblMPregunta.TabIndex = 20;
-            this.lblMPregunta.Text = "¿Desea dirigirse a otra página?";
+            this.lblMRedireccion.AutoSize = true;
+            this.lblMRedireccion.Location = new System.Drawing.Point(168, 668);
+            this.lblMRedireccion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblMRedireccion.Name = "lblMRedireccion";
+            this.lblMRedireccion.Size = new System.Drawing.Size(153, 13);
+            this.lblMRedireccion.TabIndex = 20;
+            this.lblMRedireccion.Text = "¿Desea dirigirse a otra página?";
             // 
             // rbtMSi
             // 
             this.rbtMSi.AutoSize = true;
-            this.rbtMSi.Location = new System.Drawing.Point(582, 864);
+            this.rbtMSi.Location = new System.Drawing.Point(339, 647);
+            this.rbtMSi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rbtMSi.Name = "rbtMSi";
-            this.rbtMSi.Size = new System.Drawing.Size(40, 20);
+            this.rbtMSi.Size = new System.Drawing.Size(35, 17);
             this.rbtMSi.TabIndex = 21;
             this.rbtMSi.TabStop = true;
             this.rbtMSi.Text = "SI";
@@ -255,9 +229,10 @@
             // rbtMNo
             // 
             this.rbtMNo.AutoSize = true;
-            this.rbtMNo.Location = new System.Drawing.Point(668, 864);
+            this.rbtMNo.Location = new System.Drawing.Point(339, 688);
+            this.rbtMNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rbtMNo.Name = "rbtMNo";
-            this.rbtMNo.Size = new System.Drawing.Size(48, 20);
+            this.rbtMNo.Size = new System.Drawing.Size(41, 17);
             this.rbtMNo.TabIndex = 22;
             this.rbtMNo.TabStop = true;
             this.rbtMNo.Text = "NO";
@@ -266,11 +241,12 @@
             // lblMSeleccionCategoria
             // 
             this.lblMSeleccionCategoria.AutoSize = true;
-            this.lblMSeleccionCategoria.Location = new System.Drawing.Point(313, 914);
+            this.lblMSeleccionCategoria.Location = new System.Drawing.Point(432, 647);
+            this.lblMSeleccionCategoria.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMSeleccionCategoria.Name = "lblMSeleccionCategoria";
-            this.lblMSeleccionCategoria.Size = new System.Drawing.Size(191, 16);
+            this.lblMSeleccionCategoria.Size = new System.Drawing.Size(118, 13);
             this.lblMSeleccionCategoria.TabIndex = 23;
-            this.lblMSeleccionCategoria.Text = "SELECCIONE LA CATEGORÍA";
+            this.lblMSeleccionCategoria.Text = "Seleccione la categoria";
             // 
             // cmbSeleccionCategoria
             // 
@@ -280,46 +256,94 @@
             "NIÑO",
             "MUJER",
             ""});
-            this.cmbSeleccionCategoria.Location = new System.Drawing.Point(582, 907);
+            this.cmbSeleccionCategoria.Location = new System.Drawing.Point(423, 668);
+            this.cmbSeleccionCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbSeleccionCategoria.Name = "cmbSeleccionCategoria";
-            this.cmbSeleccionCategoria.Size = new System.Drawing.Size(121, 24);
+            this.cmbSeleccionCategoria.Size = new System.Drawing.Size(127, 21);
             this.cmbSeleccionCategoria.TabIndex = 24;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(518, 71);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(70, 53);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 25;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(440, 301);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(223, 178);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 26;
-            this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(361, 809);
+            this.pictureBox6.Location = new System.Drawing.Point(292, 606);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(39, 33);
+            this.pictureBox6.Size = new System.Drawing.Size(29, 27);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 27;
             this.pictureBox6.TabStop = false;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(330, 245);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(167, 145);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 26;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(388, 58);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(52, 43);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 25;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(550, 275);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(194, 223);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(70, 281);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(202, 219);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(551, 40);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(192, 210);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pct
+            // 
+            this.pct.Image = ((System.Drawing.Image)(resources.GetObject("pct.Image")));
+            this.pct.Location = new System.Drawing.Point(70, 40);
+            this.pct.Margin = new System.Windows.Forms.Padding(2);
+            this.pct.Name = "pct";
+            this.pct.Size = new System.Drawing.Size(192, 215);
+            this.pct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct.TabIndex = 5;
+            this.pct.TabStop = false;
+            // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 978);
+            this.ClientSize = new System.Drawing.Size(832, 728);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -327,14 +351,14 @@
             this.Controls.Add(this.lblMSeleccionCategoria);
             this.Controls.Add(this.rbtMNo);
             this.Controls.Add(this.rbtMSi);
-            this.Controls.Add(this.lblMPregunta);
+            this.Controls.Add(this.lblMRedireccion);
             this.Controls.Add(this.btnMAgregarCarrito);
             this.Controls.Add(this.btnMComprar);
             this.Controls.Add(this.lblMTotal);
-            this.Controls.Add(this.rbtMPantalon);
-            this.Controls.Add(this.rbtMBuso);
-            this.Controls.Add(this.rbtMBlusa);
-            this.Controls.Add(this.rbtMCamiseta);
+            this.Controls.Add(this.rbtMPrenda4);
+            this.Controls.Add(this.rbtMPrenda3);
+            this.Controls.Add(this.rbtMPrenda2);
+            this.Controls.Add(this.rbtMPrenda1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -345,15 +369,16 @@
             this.Controls.Add(this.lblTalla);
             this.Controls.Add(this.lblDama);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "ROPA DE MUJER";
-            ((System.ComponentModel.ISupportInitialize)(this.pct)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -370,14 +395,14 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.RadioButton rbtMCamiseta;
-        private System.Windows.Forms.RadioButton rbtMBlusa;
-        private System.Windows.Forms.RadioButton rbtMBuso;
-        private System.Windows.Forms.RadioButton rbtMPantalon;
+        private System.Windows.Forms.RadioButton rbtMPrenda1;
+        private System.Windows.Forms.RadioButton rbtMPrenda2;
+        private System.Windows.Forms.RadioButton rbtMPrenda3;
+        private System.Windows.Forms.RadioButton rbtMPrenda4;
         private System.Windows.Forms.Label lblMTotal;
         private System.Windows.Forms.Button btnMComprar;
         private System.Windows.Forms.Button btnMAgregarCarrito;
-        private System.Windows.Forms.Label lblMPregunta;
+        private System.Windows.Forms.Label lblMRedireccion;
         private System.Windows.Forms.RadioButton rbtMSi;
         private System.Windows.Forms.RadioButton rbtMNo;
         private System.Windows.Forms.Label lblMSeleccionCategoria;

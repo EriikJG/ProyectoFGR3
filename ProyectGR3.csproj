@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ventanaNino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNino.Designer.cs">
+      <DependentUpon>ventanaNino.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaHombre.resx">
       <DependentUpon>VentanaHombre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNino.resx">
+      <DependentUpon>ventanaNino.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanarRegistro.resx">
       <DependentUpon>VentanarRegistro.cs</DependentUpon>
