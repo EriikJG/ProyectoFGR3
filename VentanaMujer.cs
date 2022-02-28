@@ -10,18 +10,13 @@ using System.Windows.Forms;
 
 namespace ProyectGR3
 {
-    public partial class VentanaFacturacion : Form
+    public partial class Form2 : Form
     {
-        public VentanaFacturacion()
+        public Form2()
         {
             InitializeComponent();
         }
 
-
-
-        private void VentanaFacturacion_Load(object sender, EventArgs e)
-        {
-
-        }
+ 
     }
 }
