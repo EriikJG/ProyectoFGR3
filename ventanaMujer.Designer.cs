@@ -1,6 +1,8 @@
-﻿namespace ProyectGR3
+﻿using System;
+
+namespace ProyectGR3
 {
-    partial class Form2
+    partial class VentanaMujer
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentanaMujer));
             this.lblDama = new System.Windows.Forms.Label();
             this.lblTalla = new System.Windows.Forms.Label();
             this.lblColor = new System.Windows.Forms.Label();
@@ -72,7 +74,6 @@
             this.lblDama.Size = new System.Drawing.Size(115, 41);
             this.lblDama.TabIndex = 0;
             this.lblDama.Text = "DAMA";
-            this.lblDama.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblTalla
             // 
@@ -102,7 +103,7 @@
             "M",
             "L"});
             this.cmbTalla.Location = new System.Drawing.Point(366, 516);
-            this.cmbTalla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbTalla.Margin = new System.Windows.Forms.Padding(2);
             this.cmbTalla.Name = "cmbTalla";
             this.cmbTalla.Size = new System.Drawing.Size(92, 21);
             this.cmbTalla.TabIndex = 3;
@@ -120,7 +121,7 @@
             "GRIS",
             "NEGRO"});
             this.cmbColor.Location = new System.Drawing.Point(365, 557);
-            this.cmbColor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbColor.Margin = new System.Windows.Forms.Padding(2);
             this.cmbColor.Name = "cmbColor";
             this.cmbColor.Size = new System.Drawing.Size(92, 21);
             this.cmbColor.TabIndex = 4;
@@ -129,7 +130,7 @@
             // 
             this.rbtMPrenda1.AutoSize = true;
             this.rbtMPrenda1.Location = new System.Drawing.Point(109, 260);
-            this.rbtMPrenda1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMPrenda1.Margin = new System.Windows.Forms.Padding(2);
             this.rbtMPrenda1.Name = "rbtMPrenda1";
             this.rbtMPrenda1.Size = new System.Drawing.Size(125, 17);
             this.rbtMPrenda1.TabIndex = 11;
@@ -141,7 +142,7 @@
             // 
             this.rbtMPrenda2.AutoSize = true;
             this.rbtMPrenda2.Location = new System.Drawing.Point(598, 254);
-            this.rbtMPrenda2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMPrenda2.Margin = new System.Windows.Forms.Padding(2);
             this.rbtMPrenda2.Name = "rbtMPrenda2";
             this.rbtMPrenda2.Size = new System.Drawing.Size(104, 17);
             this.rbtMPrenda2.TabIndex = 12;
@@ -153,20 +154,19 @@
             // 
             this.rbtMPrenda3.AutoSize = true;
             this.rbtMPrenda3.Location = new System.Drawing.Point(122, 505);
-            this.rbtMPrenda3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMPrenda3.Margin = new System.Windows.Forms.Padding(2);
             this.rbtMPrenda3.Name = "rbtMPrenda3";
             this.rbtMPrenda3.Size = new System.Drawing.Size(106, 17);
             this.rbtMPrenda3.TabIndex = 14;
             this.rbtMPrenda3.TabStop = true;
             this.rbtMPrenda3.Text = "SUÉTER SNOW";
             this.rbtMPrenda3.UseVisualStyleBackColor = true;
-            this.rbtMPrenda3.CheckedChanged += new System.EventHandler(this.rbtMBuso_CheckedChanged);
             // 
             // rbtMPrenda4
             // 
             this.rbtMPrenda4.AutoSize = true;
             this.rbtMPrenda4.Location = new System.Drawing.Point(573, 505);
-            this.rbtMPrenda4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMPrenda4.Margin = new System.Windows.Forms.Padding(2);
             this.rbtMPrenda4.Name = "rbtMPrenda4";
             this.rbtMPrenda4.Size = new System.Drawing.Size(140, 17);
             this.rbtMPrenda4.TabIndex = 15;
@@ -187,7 +187,7 @@
             // btnMComprar
             // 
             this.btnMComprar.Location = new System.Drawing.Point(365, 591);
-            this.btnMComprar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMComprar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMComprar.Name = "btnMComprar";
             this.btnMComprar.Size = new System.Drawing.Size(87, 19);
             this.btnMComprar.TabIndex = 18;
@@ -197,7 +197,7 @@
             // btnMAgregarCarrito
             // 
             this.btnMAgregarCarrito.Location = new System.Drawing.Point(339, 614);
-            this.btnMAgregarCarrito.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMAgregarCarrito.Margin = new System.Windows.Forms.Padding(2);
             this.btnMAgregarCarrito.Name = "btnMAgregarCarrito";
             this.btnMAgregarCarrito.Size = new System.Drawing.Size(140, 19);
             this.btnMAgregarCarrito.TabIndex = 19;
@@ -218,7 +218,7 @@
             // 
             this.rbtMSi.AutoSize = true;
             this.rbtMSi.Location = new System.Drawing.Point(339, 647);
-            this.rbtMSi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMSi.Margin = new System.Windows.Forms.Padding(2);
             this.rbtMSi.Name = "rbtMSi";
             this.rbtMSi.Size = new System.Drawing.Size(35, 17);
             this.rbtMSi.TabIndex = 21;
@@ -230,7 +230,7 @@
             // 
             this.rbtMNo.AutoSize = true;
             this.rbtMNo.Location = new System.Drawing.Point(339, 688);
-            this.rbtMNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbtMNo.Margin = new System.Windows.Forms.Padding(2);
             this.rbtMNo.Name = "rbtMNo";
             this.rbtMNo.Size = new System.Drawing.Size(41, 17);
             this.rbtMNo.TabIndex = 22;
@@ -257,7 +257,7 @@
             "MUJER",
             ""});
             this.cmbSeleccionCategoria.Location = new System.Drawing.Point(423, 668);
-            this.cmbSeleccionCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbSeleccionCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.cmbSeleccionCategoria.Name = "cmbSeleccionCategoria";
             this.cmbSeleccionCategoria.Size = new System.Drawing.Size(127, 21);
             this.cmbSeleccionCategoria.TabIndex = 24;
@@ -339,7 +339,7 @@
             this.pct.TabIndex = 5;
             this.pct.TabStop = false;
             // 
-            // Form2
+            // VentanaMujer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -369,9 +369,10 @@
             this.Controls.Add(this.lblTalla);
             this.Controls.Add(this.lblDama);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "Form2";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "VentanaMujer";
             this.Text = "ROPA DE MUJER";
+            this.Load += new System.EventHandler(this.VentanaMujer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

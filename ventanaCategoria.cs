@@ -37,7 +37,14 @@ namespace ProyectGR3
                 VentanaHombre ventanaHombre = new VentanaHombre();
                 ventanaHombre.Show();
             }
-               
+            if (cliente.categoria == "Mujer")
+            {
+                this.Hide();
+
+                VentanaMujer ventanaMujer = new VentanaMujer();
+                ventanaMujer.Show();
+            }
+
 
         }
 
