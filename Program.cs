@@ -18,5 +18,6 @@ namespace ProyectGR3
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new VentanarRegistro());
         }
+
     }
 }
