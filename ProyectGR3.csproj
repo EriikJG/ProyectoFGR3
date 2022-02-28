@@ -12,21 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -64,50 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VentanaCategoria.cs">
+    <Compile Include="RopaDeNino.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VentanaCategoria.Designer.cs">
-      <DependentUpon>VentanaCategoria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VentanaFacturacion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VentanaFacturacion.Designer.cs">
-      <DependentUpon>VentanaFacturacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VentanaHombre.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VentanaHombre.Designer.cs">
-      <DependentUpon>VentanaHombre.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VentanarRegistro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VentanarRegistro.Designer.cs">
-      <DependentUpon>VentanarRegistro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ventanaMujer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ventanaMujer.Designer.cs">
-      <DependentUpon>ventanaMujer.cs</DependentUpon>
+    <Compile Include="RopaDeNino.Designer.cs">
+      <DependentUpon>RopaDeNino.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="VentanaCategoria.resx">
-      <DependentUpon>VentanaCategoria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VentanaFacturacion.resx">
-      <DependentUpon>VentanaFacturacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VentanaHombre.resx">
-      <DependentUpon>VentanaHombre.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VentanarRegistro.resx">
-      <DependentUpon>VentanarRegistro.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -118,8 +67,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ventanaMujer.resx">
-      <DependentUpon>ventanaMujer.cs</DependentUpon>
+    <EmbeddedResource Include="RopaDeNino.resx">
+      <DependentUpon>RopaDeNino.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -137,18 +86,6 @@
   <ItemGroup>
     <Content Include="descarga.ico" />
     <None Include="Resources\dfe2bf416023b848bb590f2ff5509162.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
