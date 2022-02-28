@@ -57,7 +57,7 @@ namespace ProyectGR3
         {
             this.Hide();
 
-            VentanaHombre newframe = new VentanaHombre();
+            VentanaCategoria newframe = new VentanaCategoria();
             newframe.Show();
 
             

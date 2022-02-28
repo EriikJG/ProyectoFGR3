@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace ProyectGR3
 {
-    public partial class Form2 : Form
+    public partial class VentanaCategoria : Form
     {
-        public Form2()
+        public VentanaCategoria()
         {
             InitializeComponent();
         }
-
-    
     }
 }
