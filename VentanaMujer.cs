@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace ProyectGR3
 {
-    public partial class Form2 : Form
+    public partial class VentanaMujer : Form
     {
-        public Form2()
+        public VentanaMujer()
         {
             InitializeComponent();
         }
 
- 
+        private void VentanaMujer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
