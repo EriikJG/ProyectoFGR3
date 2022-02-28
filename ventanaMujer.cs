@@ -10,25 +10,21 @@ using System.Windows.Forms;
 
 namespace ProyectGR3
 {
-<<<<<<< HEAD:RopaDeNino.cs
-    public partial class RopaDeNino : Form
+    public partial class Form2 : Form
     {
-        public RopaDeNino()
-        {
-            InitializeComponent();
-        }
-=======
-    public partial class VentanaFacturacion : Form
-    {
-        public VentanaFacturacion()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void VentanaFacturacion_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
->>>>>>> master:VentanaFacturacion.cs
+
+        private void rbtMBuso_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
