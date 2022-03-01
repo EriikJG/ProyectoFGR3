@@ -12,10 +12,13 @@ namespace ProyectGR3
 {
     public partial class ventanaNino : Form
     {
-
+        
+       
         public ventanaNino()
         {
             InitializeComponent();
+           
+
         }
 
         private void ventanaNino_Load(object sender, EventArgs e)
@@ -25,8 +28,7 @@ namespace ProyectGR3
 
         private void btnNComprar_Click(object sender, EventArgs e)
         {
-     
-
+           
             this.Hide();
 
             VentanaFacturacion facturar = new VentanaFacturacion();
