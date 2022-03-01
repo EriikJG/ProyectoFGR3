@@ -50,7 +50,6 @@
             this.rbtNPrenda2 = new System.Windows.Forms.RadioButton();
             this.rbtNPrenda1 = new System.Windows.Forms.RadioButton();
             this.rbtNPrenda3 = new System.Windows.Forms.RadioButton();
-            this.rbtPantalones = new System.Windows.Forms.RadioButton();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox1P = new System.Windows.Forms.PictureBox();
             this.lblNTotal = new System.Windows.Forms.Label();
@@ -313,17 +312,6 @@
             this.rbtNPrenda3.Text = "Camisetas llanas";
             this.rbtNPrenda3.UseVisualStyleBackColor = true;
             // 
-            // rbtPantalones
-            // 
-            this.rbtPantalones.AutoSize = true;
-            this.rbtPantalones.Location = new System.Drawing.Point(483, 255);
-            this.rbtPantalones.Margin = new System.Windows.Forms.Padding(2);
-            this.rbtPantalones.Name = "rbtPantalones";
-            this.rbtPantalones.Size = new System.Drawing.Size(14, 13);
-            this.rbtPantalones.TabIndex = 51;
-            this.rbtPantalones.TabStop = true;
-            this.rbtPantalones.UseVisualStyleBackColor = true;
-            // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
@@ -454,7 +442,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.lblNTotal);
-            this.Controls.Add(this.rbtPantalones);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox1P);
             this.Controls.Add(this.rbtNPrenda3);
@@ -521,7 +508,6 @@
         private System.Windows.Forms.RadioButton rbtNPrenda2;
         private System.Windows.Forms.RadioButton rbtNPrenda1;
         private System.Windows.Forms.RadioButton rbtNPrenda3;
-        private System.Windows.Forms.RadioButton rbtPantalones;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox1P;
         private System.Windows.Forms.Label lblNTotal;
