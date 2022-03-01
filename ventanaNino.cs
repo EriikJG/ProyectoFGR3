@@ -25,6 +25,7 @@ namespace ProyectGR3
 
         private void btnNComprar_Click(object sender, EventArgs e)
         {
+     
 
             this.Hide();
 
