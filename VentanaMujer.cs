@@ -12,14 +12,19 @@ namespace ProyectGR3
 {
     public partial class VentanaMujer : Form
     {
+<<<<<<< HEAD
         public double numero = VentanarRegistro.persona.tarjeta.totales.subtotal;
         public VentanaMujer ()
+=======
+        public VentanaMujer()
+>>>>>>> parent of 58824e4 (cambios normales)
         {
             InitializeComponent();
         }
 
         private void VentanaMujer_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             lblMPregunta.Enabled = true;
             btnMNo.Enabled = false;
             btnMSi.Enabled = true;
@@ -153,9 +158,17 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtMPrenda1.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbMColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbMTalla.SelectedText);
+<<<<<<< Updated upstream
+                        VentanarRegistro.producto.precio.subtotal += 10;
+                        this.Hide();
+
+                        VentanaFacturacion facturar = new VentanaFacturacion();
+                        facturar.Show();
+=======
                         VentanarRegistro.producto.precioIndividual = 6.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 6;
                         contador2++;
+>>>>>>> Stashed changes
                     }
                     else
                     {
@@ -171,9 +184,17 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtMPrenda2.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbMColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbMTalla.SelectedText);
+<<<<<<< Updated upstream
+                        VentanarRegistro.producto.precio.subtotal += 5;
+                        this.Hide();
+
+                        VentanaFacturacion facturar = new VentanaFacturacion();
+                        facturar.Show();
+=======
                         VentanarRegistro.producto.precioIndividual = 10.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 10;
                         contador2++;
+>>>>>>> Stashed changes
                     }
                     else
                     {
@@ -188,9 +209,17 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtMPrenda3.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbMColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbMTalla.SelectedText);
+<<<<<<< Updated upstream
+                        VentanarRegistro.producto.precio.subtotal += 8;
+                        this.Hide();
+
+                        VentanaFacturacion facturar = new VentanaFacturacion();
+                        facturar.Show();
+=======
                         VentanarRegistro.producto.precioIndividual = 20.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 20;
                         contador2++;
+>>>>>>> Stashed changes
                     }
                     else
                     {
@@ -206,9 +235,17 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtMPrenda4.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbMColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbMTalla.SelectedText);
+<<<<<<< Updated upstream
+                        VentanarRegistro.producto.precio.subtotal += 20;
+                        this.Hide();
+
+                        VentanaFacturacion facturar = new VentanaFacturacion();
+                        facturar.Show();
+=======
                         VentanarRegistro.producto.precioIndividual = 12.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 12;
                         contador2++;
+>>>>>>> Stashed changes
                     }
                     else
                     {
@@ -303,9 +340,9 @@ namespace ProyectGR3
         private void btnFinalM_Click(object sender, EventArgs e)
         {
             this.Hide();
+=======
+>>>>>>> parent of 58824e4 (cambios normales)
 
-            VentanaFacturacion facturar = new VentanaFacturacion();
-            facturar.Show();
         }
     }
 }

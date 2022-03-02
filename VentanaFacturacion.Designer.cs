@@ -37,7 +37,7 @@
             this.txtClave = new System.Windows.Forms.TextBox();
             this.lblTarjeta2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txaDescripcion = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.lblDireccion = new System.Windows.Forms.Label();
             this.lblCalleP = new System.Windows.Forms.Label();
             this.lblCalleS = new System.Windows.Forms.Label();
@@ -51,8 +51,6 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.lblCorreo = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnAtrasF = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picbImagen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -70,7 +68,7 @@
             // picbImagen
             // 
             this.picbImagen.Image = global::ProyectGR3.Properties.Resources.dfe2bf416023b848bb590f2ff5509162;
-            this.picbImagen.Location = new System.Drawing.Point(551, 13);
+            this.picbImagen.Location = new System.Drawing.Point(12, 13);
             this.picbImagen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.picbImagen.Name = "picbImagen";
             this.picbImagen.Size = new System.Drawing.Size(100, 50);
@@ -130,13 +128,13 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "XXX";
             // 
-            // txaDescripcion
+            // richTextBox1
             // 
-            this.txaDescripcion.Location = new System.Drawing.Point(118, 195);
-            this.txaDescripcion.Name = "txaDescripcion";
-            this.txaDescripcion.Size = new System.Drawing.Size(530, 255);
-            this.txaDescripcion.TabIndex = 9;
-            this.txaDescripcion.Text = "";
+            this.richTextBox1.Location = new System.Drawing.Point(118, 195);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(530, 255);
+            this.richTextBox1.TabIndex = 9;
+            this.richTextBox1.Text = "";
             // 
             // lblDireccion
             // 
@@ -197,15 +195,12 @@
             // 
             // btnRFinalizar
             // 
-            this.btnRFinalizar.BackColor = System.Drawing.Color.YellowGreen;
-            this.btnRFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRFinalizar.Location = new System.Drawing.Point(455, 497);
+            this.btnRFinalizar.Location = new System.Drawing.Point(573, 515);
             this.btnRFinalizar.Name = "btnRFinalizar";
             this.btnRFinalizar.Size = new System.Drawing.Size(75, 50);
             this.btnRFinalizar.TabIndex = 17;
             this.btnRFinalizar.Text = "Finalizar";
-            this.btnRFinalizar.UseVisualStyleBackColor = false;
-            this.btnRFinalizar.Click += new System.EventHandler(this.btnRFinalizar_Click);
+            this.btnRFinalizar.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -255,36 +250,11 @@
             this.lblCorreo.TabIndex = 22;
             this.lblCorreo.Text = "Correo electronico:";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.OrangeRed;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(674, 576);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 59);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Cancelar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnAtrasF
-            // 
-            this.btnAtrasF.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnAtrasF.Image = ((System.Drawing.Image)(resources.GetObject("btnAtrasF.Image")));
-            this.btnAtrasF.Location = new System.Drawing.Point(12, 13);
-            this.btnAtrasF.Name = "btnAtrasF";
-            this.btnAtrasF.Size = new System.Drawing.Size(53, 38);
-            this.btnAtrasF.TabIndex = 74;
-            this.btnAtrasF.UseVisualStyleBackColor = false;
-            this.btnAtrasF.Click += new System.EventHandler(this.btnAtrasF_Click);
-            // 
             // VentanaFacturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 647);
-            this.Controls.Add(this.btnAtrasF);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblCorreo);
             this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.txtNombre);
@@ -298,7 +268,7 @@
             this.Controls.Add(this.lblCalleS);
             this.Controls.Add(this.lblCalleP);
             this.Controls.Add(this.lblDireccion);
-            this.Controls.Add(this.txaDescripcion);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblTarjeta2);
             this.Controls.Add(this.txtClave);
@@ -328,7 +298,7 @@
         private System.Windows.Forms.TextBox txtClave;
         private System.Windows.Forms.Label lblTarjeta2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox txaDescripcion;
+        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label lblDireccion;
         private System.Windows.Forms.Label lblCalleP;
         private System.Windows.Forms.Label lblCalleS;
@@ -342,7 +312,5 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.Label lblCorreo;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnAtrasF;
     }
 }
