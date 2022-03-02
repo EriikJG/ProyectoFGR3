@@ -350,7 +350,7 @@
             this.btnFinalH.Name = "btnFinalH";
             this.btnFinalH.Size = new System.Drawing.Size(83, 50);
             this.btnFinalH.TabIndex = 68;
-            this.btnFinalH.Text = "Factura";
+            this.btnFinalH.Text = "Facturar";
             this.btnFinalH.UseVisualStyleBackColor = false;
             this.btnFinalH.Click += new System.EventHandler(this.btnFinalH_Click);
             // 
