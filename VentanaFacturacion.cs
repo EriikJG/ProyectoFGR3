@@ -46,12 +46,12 @@ namespace ProyectGR3
                 VentanarRegistro.persona.datosD.calleS = txtCalleS.Text;
                 VentanarRegistro.persona.datosD.Ncasa = txtNCasa.Text;
 
-                txaDescripcion.Text = "Ultimo producto Tomado: " + "\nNombre Del producto: " + VentanarRegistro.producto.nombreProducto + "\nTalla: " + VentanarRegistro.producto.talla
+                txaDescripcion.Text = "ULTIMO PRODUCTO SELECCIONADO: " + "\nNombre Del producto: " + VentanarRegistro.producto.nombreProducto + "\nTalla: " + VentanarRegistro.producto.talla
                  + "\nColor: " + VentanarRegistro.producto.color + "\nCategoria: " + VentanarRegistro.producto.categoria + "\n Precio Individual: " + VentanarRegistro.producto.precioIndividual
-                 + "\n USUARIO:" + "\nNombre:" + VentanarRegistro.persona.nombre + "\nCorreo: " + VentanarRegistro.persona.correo + "\nDIRECCIÓN: " +
+                 + "\n USUARIO:" + "\nNombre:" + VentanarRegistro.persona.nombre + "\nCorreo: " + VentanarRegistro.persona.correo + "\n" + "\nDIRECCIÓN: " +
                  "\nCalle Principal:" + VentanarRegistro.persona.datosD.calleP + "\nCalle Secundaria: " + VentanarRegistro.persona.datosD.calleS +
-                 "\nNúmero de Casa: " + VentanarRegistro.persona.datosD.Ncasa + "\n TOTALES A PAGAR:  " + " \nSubtotal Compra: " + VentanarRegistro.persona.tarjeta.totales.subtotal
-                 + " \nTotal Compra: " + total;
+                 "\nNúmero de Casa: " + VentanarRegistro.persona.datosD.Ncasa +"\n" + "\n TOTALES A PAGAR:  " + " \nSubtotal Compra: $" + VentanarRegistro.persona.tarjeta.totales.subtotal
+                 + " \nTotal Compra: $" + total;
 
                 MessageBox.Show("Gracias por la compra", "Mensaje");
 

@@ -515,7 +515,9 @@
             this.Controls.Add(this.lblVHombre);
             this.Controls.Add(this.gpHombre);
             this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "VentanaHombre";
             this.Text = "HOMBRE";
             this.Load += new System.EventHandler(this.VentanaHombre_Load);

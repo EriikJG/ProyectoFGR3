@@ -54,8 +54,10 @@
             this.btnAtrasF = new System.Windows.Forms.Button();
             this.txaDescripcion = new System.Windows.Forms.RichTextBox();
             this.btnCerrarF = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picbImagen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -192,7 +194,7 @@
             // 
             this.btnRFinalizar.BackColor = System.Drawing.Color.YellowGreen;
             this.btnRFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRFinalizar.Location = new System.Drawing.Point(487, 278);
+            this.btnRFinalizar.Location = new System.Drawing.Point(289, 354);
             this.btnRFinalizar.Name = "btnRFinalizar";
             this.btnRFinalizar.Size = new System.Drawing.Size(75, 50);
             this.btnRFinalizar.TabIndex = 17;
@@ -252,9 +254,9 @@
             // 
             this.button1.BackColor = System.Drawing.Color.OrangeRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(674, 278);
+            this.button1.Location = new System.Drawing.Point(410, 361);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 59);
+            this.button1.Size = new System.Drawing.Size(75, 36);
             this.button1.TabIndex = 23;
             this.button1.Text = "Cancelar";
             this.button1.UseVisualStyleBackColor = false;
@@ -275,26 +277,38 @@
             // 
             this.txaDescripcion.Location = new System.Drawing.Point(30, 412);
             this.txaDescripcion.Name = "txaDescripcion";
-            this.txaDescripcion.Size = new System.Drawing.Size(515, 181);
+            this.txaDescripcion.Size = new System.Drawing.Size(515, 223);
             this.txaDescripcion.TabIndex = 75;
             this.txaDescripcion.Text = "";
             // 
             // btnCerrarF
             // 
-            this.btnCerrarF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnCerrarF.Location = new System.Drawing.Point(619, 480);
+            this.btnCerrarF.BackColor = System.Drawing.Color.Firebrick;
+            this.btnCerrarF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarF.Location = new System.Drawing.Point(692, 594);
             this.btnCerrarF.Name = "btnCerrarF";
-            this.btnCerrarF.Size = new System.Drawing.Size(82, 63);
+            this.btnCerrarF.Size = new System.Drawing.Size(82, 41);
             this.btnCerrarF.TabIndex = 76;
             this.btnCerrarF.Text = "Cerrar";
             this.btnCerrarF.UseVisualStyleBackColor = false;
             this.btnCerrarF.Click += new System.EventHandler(this.btnCerrarF_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(506, 176);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(258, 198);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 77;
+            this.pictureBox2.TabStop = false;
             // 
             // VentanaFacturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 647);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnCerrarF);
             this.Controls.Add(this.txaDescripcion);
             this.Controls.Add(this.btnAtrasF);
@@ -320,12 +334,15 @@
             this.Controls.Add(this.lblTarjeta);
             this.Controls.Add(this.picbImagen);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "VentanaFacturacion";
             this.Text = "Facturación";
             this.Load += new System.EventHandler(this.VentanaFacturacion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picbImagen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -358,5 +375,6 @@
         private System.Windows.Forms.Button btnAtrasF;
         private System.Windows.Forms.RichTextBox txaDescripcion;
         private System.Windows.Forms.Button btnCerrarF;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
