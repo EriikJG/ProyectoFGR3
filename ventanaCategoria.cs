@@ -12,7 +12,7 @@ namespace ProyectGR3
 {
     public partial class VentanaCategoria : Form
     {
-        Program.Producto producto = new Program.Producto ();
+        
         public VentanaCategoria()
         {
             InitializeComponent();
@@ -20,11 +20,14 @@ namespace ProyectGR3
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            producto.categoria = cbmCategoria.Text;
+            VentanarRegistro.producto.categoria =  cbmCategoria.Text;
             
                 
+            if(cbmCategoria.SelectedItem != null)
+            {
 
-                if (producto.categoria == "Niños")
+           
+                if (VentanarRegistro.producto.categoria == "Niños")
                 {
                     this.Hide();
 
@@ -33,22 +36,27 @@ namespace ProyectGR3
                     
             }
 
-                if (producto.categoria == "Hombre")
+                if (VentanarRegistro.producto.categoria == "Hombre")
                 {
                     this.Hide();
 
                     VentanaHombre ventanaHombre = new VentanaHombre();
                     ventanaHombre.Show();
                 }
-                if (producto.categoria == "Mujer")
+                if (VentanarRegistro.producto.categoria == "Mujer")
                 {
                     this.Hide();
 
-                    VentanaMujer ventanaMujer = new VentanaMujer();
-                    ventanaMujer.Show();
+                    VentanaMujer ventanamujer = new VentanaMujer();
+                    ventanamujer.Show();
                 }
+            }
+            else
+            {
+                MessageBox.Show("Escoja una opcion", "Advertencia");
+            }
 
-            
+
 
 
         }

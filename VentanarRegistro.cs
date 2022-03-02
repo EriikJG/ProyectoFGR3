@@ -12,7 +12,43 @@ namespace ProyectGR3
 {
     public partial class VentanarRegistro : Form
     {
-         Program.Persona cliente = new Program.Persona();
+       public struct Precio
+        {
+            public double subtotal;
+            public double total;
+        }
+        public struct Direccion
+        {
+            public string calleP;
+            public string calleS;
+            public string Ncasa;
+        }
+        public struct Producto
+        {
+            public string nombreProducto;
+            public string talla;
+            public string color;
+            public string categoria;
+           
+            public double precioIndividual;
+        }
+        public struct Pago
+        {
+            public Precio totales;
+            public string numeroTarjeta;
+            public int clave;
+        }
+
+        public struct Persona
+        {
+            public string nombre;
+            public string correo;
+            public Direccion datosD;
+            public Pago tarjeta;
+        }
+        static public Producto producto;
+        static public Persona persona;
+    
         public VentanarRegistro()
         {
             InitializeComponent();
@@ -21,44 +57,14 @@ namespace ProyectGR3
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            btnIngresar.Enabled = false;
-        }
-
-
-        private void controlBotones()
-        {
-            if (txtNombre.Text.Trim() != string.Empty && txtNombre.Text.All(Char.IsLetter))
-            {
-                btnIngresar.Enabled = true;
-                errorProvider1.SetError(txtNombre, "");
-            }
-            else
-            {
-                if (!(txtNombre.Text.All(Char.IsLetter)))
-                {
-                    errorProvider1.SetError(txtNombre, "El nombre sólo debe contener letras");
-                }
-                else
-                {
-
-                    errorProvider1.SetError(txtNombre, "Debe introducir su nombre");
-                    btnIngresar.Enabled = false;
-                    txtNombre.Focus();
-                }
-            }
-        }
-
-        private void txtNombre_TextChanged(object sender, EventArgs e)
-        {
-            controlBotones();
+            persona.tarjeta.totales.subtotal = 0;
+            persona.tarjeta.totales.total = 0;
 
         }
-
+         
+        
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-
-            cliente.nombre = txtNombre.Text;
-            cliente.correo = txtCorreo.Text;
 
             this.Hide();
 
@@ -66,5 +72,7 @@ namespace ProyectGR3
             newform2.Show();
 
         }
+
+      
     }
 }
