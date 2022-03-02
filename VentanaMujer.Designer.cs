@@ -85,30 +85,27 @@ namespace ProyectGR3
             // 
             this.lblDama.AutoSize = true;
             this.lblDama.Font = new System.Drawing.Font("Palatino Linotype", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDama.Location = new System.Drawing.Point(364, 7);
-            this.lblDama.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDama.Location = new System.Drawing.Point(485, 9);
             this.lblDama.Name = "lblDama";
-            this.lblDama.Size = new System.Drawing.Size(115, 41);
+            this.lblDama.Size = new System.Drawing.Size(144, 50);
             this.lblDama.TabIndex = 0;
             this.lblDama.Text = "DAMA";
             // 
             // lblTalla
             // 
             this.lblTalla.AutoSize = true;
-            this.lblTalla.Location = new System.Drawing.Point(352, 429);
-            this.lblTalla.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTalla.Location = new System.Drawing.Point(469, 528);
             this.lblTalla.Name = "lblTalla";
-            this.lblTalla.Size = new System.Drawing.Size(33, 13);
+            this.lblTalla.Size = new System.Drawing.Size(41, 16);
             this.lblTalla.TabIndex = 1;
             this.lblTalla.Text = "Talla:";
             // 
             // lblColor
             // 
             this.lblColor.AutoSize = true;
-            this.lblColor.Location = new System.Drawing.Point(363, 512);
-            this.lblColor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblColor.Location = new System.Drawing.Point(484, 630);
             this.lblColor.Name = "lblColor";
-            this.lblColor.Size = new System.Drawing.Size(34, 13);
+            this.lblColor.Size = new System.Drawing.Size(42, 16);
             this.lblColor.TabIndex = 2;
             this.lblColor.Text = "Color:";
             // 
@@ -119,10 +116,10 @@ namespace ProyectGR3
             "S",
             "M",
             "L"});
-            this.cmbMTalla.Location = new System.Drawing.Point(389, 421);
-            this.cmbMTalla.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbMTalla.Location = new System.Drawing.Point(519, 518);
+            this.cmbMTalla.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbMTalla.Name = "cmbMTalla";
-            this.cmbMTalla.Size = new System.Drawing.Size(92, 21);
+            this.cmbMTalla.Size = new System.Drawing.Size(121, 24);
             this.cmbMTalla.TabIndex = 3;
             // 
             // cmbMColor
@@ -137,28 +134,27 @@ namespace ProyectGR3
             "ROSA",
             "GRIS",
             "NEGRO"});
-            this.cmbMColor.Location = new System.Drawing.Point(401, 504);
-            this.cmbMColor.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbMColor.Location = new System.Drawing.Point(535, 620);
+            this.cmbMColor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbMColor.Name = "cmbMColor";
-            this.cmbMColor.Size = new System.Drawing.Size(92, 21);
+            this.cmbMColor.Size = new System.Drawing.Size(121, 24);
             this.cmbMColor.TabIndex = 4;
             // 
             // lblMTotal
             // 
             this.lblMTotal.AutoSize = true;
-            this.lblMTotal.Location = new System.Drawing.Point(704, 28);
-            this.lblMTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblMTotal.Location = new System.Drawing.Point(939, 34);
             this.lblMTotal.Name = "lblMTotal";
-            this.lblMTotal.Size = new System.Drawing.Size(60, 13);
+            this.lblMTotal.Size = new System.Drawing.Size(70, 16);
             this.lblMTotal.TabIndex = 17;
             this.lblMTotal.Text = "TOTAL $ : ";
             // 
             // btnMComprar
             // 
-            this.btnMComprar.Location = new System.Drawing.Point(401, 532);
-            this.btnMComprar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMComprar.Location = new System.Drawing.Point(535, 655);
+            this.btnMComprar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMComprar.Name = "btnMComprar";
-            this.btnMComprar.Size = new System.Drawing.Size(87, 22);
+            this.btnMComprar.Size = new System.Drawing.Size(116, 27);
             this.btnMComprar.TabIndex = 18;
             this.btnMComprar.Text = "COMPRAR";
             this.btnMComprar.UseVisualStyleBackColor = true;
@@ -166,10 +162,10 @@ namespace ProyectGR3
             // 
             // btnMAgregarCarrito
             // 
-            this.btnMAgregarCarrito.Location = new System.Drawing.Point(371, 558);
-            this.btnMAgregarCarrito.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMAgregarCarrito.Location = new System.Drawing.Point(495, 687);
+            this.btnMAgregarCarrito.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMAgregarCarrito.Name = "btnMAgregarCarrito";
-            this.btnMAgregarCarrito.Size = new System.Drawing.Size(158, 27);
+            this.btnMAgregarCarrito.Size = new System.Drawing.Size(211, 33);
             this.btnMAgregarCarrito.TabIndex = 19;
             this.btnMAgregarCarrito.Text = "AGREGAR AL CARRITO";
             this.btnMAgregarCarrito.UseVisualStyleBackColor = true;
@@ -178,20 +174,18 @@ namespace ProyectGR3
             // lblMPregunta
             // 
             this.lblMPregunta.AutoSize = true;
-            this.lblMPregunta.Location = new System.Drawing.Point(290, 603);
-            this.lblMPregunta.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblMPregunta.Location = new System.Drawing.Point(387, 742);
             this.lblMPregunta.Name = "lblMPregunta";
-            this.lblMPregunta.Size = new System.Drawing.Size(153, 13);
+            this.lblMPregunta.Size = new System.Drawing.Size(195, 16);
             this.lblMPregunta.TabIndex = 20;
             this.lblMPregunta.Text = "¿Desea dirigirse a otra página?";
             // 
             // lblMSeleccionCategoria
             // 
             this.lblMSeleccionCategoria.AutoSize = true;
-            this.lblMSeleccionCategoria.Location = new System.Drawing.Point(469, 605);
-            this.lblMSeleccionCategoria.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblMSeleccionCategoria.Location = new System.Drawing.Point(625, 745);
             this.lblMSeleccionCategoria.Name = "lblMSeleccionCategoria";
-            this.lblMSeleccionCategoria.Size = new System.Drawing.Size(118, 13);
+            this.lblMSeleccionCategoria.Size = new System.Drawing.Size(149, 16);
             this.lblMSeleccionCategoria.TabIndex = 23;
             this.lblMSeleccionCategoria.Text = "Seleccione la categoria";
             // 
@@ -202,19 +196,19 @@ namespace ProyectGR3
             "HOMBRE",
             "NIÑO",
             ""});
-            this.cmbMSeleccionCategoria.Location = new System.Drawing.Point(591, 605);
-            this.cmbMSeleccionCategoria.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbMSeleccionCategoria.Location = new System.Drawing.Point(788, 745);
+            this.cmbMSeleccionCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbMSeleccionCategoria.Name = "cmbMSeleccionCategoria";
-            this.cmbMSeleccionCategoria.Size = new System.Drawing.Size(127, 21);
+            this.cmbMSeleccionCategoria.Size = new System.Drawing.Size(168, 24);
             this.cmbMSeleccionCategoria.TabIndex = 24;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(338, 558);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Location = new System.Drawing.Point(451, 687);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(29, 27);
+            this.pictureBox6.Size = new System.Drawing.Size(39, 33);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 27;
             this.pictureBox6.TabStop = false;
@@ -222,10 +216,10 @@ namespace ProyectGR3
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(359, 172);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Location = new System.Drawing.Point(479, 212);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(122, 101);
+            this.pictureBox5.Size = new System.Drawing.Size(163, 124);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 26;
             this.pictureBox5.TabStop = false;
@@ -233,10 +227,10 @@ namespace ProyectGR3
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(379, 18);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Location = new System.Drawing.Point(505, 22);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(52, 43);
+            this.pictureBox4.Size = new System.Drawing.Size(69, 53);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 25;
             this.pictureBox4.TabStop = false;
@@ -244,10 +238,10 @@ namespace ProyectGR3
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(603, 285);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(804, 351);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(194, 183);
+            this.pictureBox3.Size = new System.Drawing.Size(259, 225);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
@@ -255,10 +249,10 @@ namespace ProyectGR3
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(99, 280);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(132, 345);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(202, 188);
+            this.pictureBox2.Size = new System.Drawing.Size(269, 231);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -266,10 +260,10 @@ namespace ProyectGR3
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(605, 85);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(807, 105);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 165);
+            this.pictureBox1.Size = new System.Drawing.Size(256, 203);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -277,10 +271,10 @@ namespace ProyectGR3
             // pct
             // 
             this.pct.Image = ((System.Drawing.Image)(resources.GetObject("pct.Image")));
-            this.pct.Location = new System.Drawing.Point(109, 85);
-            this.pct.Margin = new System.Windows.Forms.Padding(2);
+            this.pct.Location = new System.Drawing.Point(145, 105);
+            this.pct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pct.Name = "pct";
-            this.pct.Size = new System.Drawing.Size(192, 165);
+            this.pct.Size = new System.Drawing.Size(256, 203);
             this.pct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pct.TabIndex = 5;
             this.pct.TabStop = false;
@@ -290,18 +284,20 @@ namespace ProyectGR3
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Yellow;
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(547, 149);
+            this.label4.Location = new System.Drawing.Point(729, 183);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
+            this.label4.Size = new System.Drawing.Size(45, 16);
             this.label4.TabIndex = 37;
             this.label4.Text = "$10.00";
             // 
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(525, 101);
+            this.pictureBox11.Location = new System.Drawing.Point(700, 124);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(101, 97);
+            this.pictureBox11.Size = new System.Drawing.Size(135, 119);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 36;
             this.pictureBox11.TabStop = false;
@@ -311,18 +307,20 @@ namespace ProyectGR3
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Yellow;
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(547, 414);
+            this.label1.Location = new System.Drawing.Point(729, 510);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(45, 16);
             this.label1.TabIndex = 39;
             this.label1.Text = "$12.00";
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(515, 353);
+            this.pictureBox7.Location = new System.Drawing.Point(687, 434);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(101, 97);
+            this.pictureBox7.Size = new System.Drawing.Size(135, 119);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 38;
             this.pictureBox7.TabStop = false;
@@ -332,18 +330,20 @@ namespace ProyectGR3
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Yellow;
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(36, 414);
+            this.label2.Location = new System.Drawing.Point(48, 510);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.Size = new System.Drawing.Size(45, 16);
             this.label2.TabIndex = 41;
             this.label2.Text = "$20.00";
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(12, 362);
+            this.pictureBox8.Location = new System.Drawing.Point(16, 446);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(101, 97);
+            this.pictureBox8.Size = new System.Drawing.Size(135, 119);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 40;
             this.pictureBox8.TabStop = false;
@@ -353,18 +353,20 @@ namespace ProyectGR3
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Yellow;
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(36, 149);
+            this.label3.Location = new System.Drawing.Point(48, 183);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(38, 16);
             this.label3.TabIndex = 43;
             this.label3.Text = "$6.00";
             // 
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(12, 130);
+            this.pictureBox9.Location = new System.Drawing.Point(16, 160);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(101, 97);
+            this.pictureBox9.Size = new System.Drawing.Size(135, 119);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 42;
             this.pictureBox9.TabStop = false;
@@ -373,9 +375,10 @@ namespace ProyectGR3
             // 
             this.btnMSi.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnMSi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnMSi.Location = new System.Drawing.Point(385, 619);
+            this.btnMSi.Location = new System.Drawing.Point(513, 762);
+            this.btnMSi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMSi.Name = "btnMSi";
-            this.btnMSi.Size = new System.Drawing.Size(55, 23);
+            this.btnMSi.Size = new System.Drawing.Size(73, 28);
             this.btnMSi.TabIndex = 72;
             this.btnMSi.Text = "SI";
             this.btnMSi.UseVisualStyleBackColor = false;
@@ -385,9 +388,10 @@ namespace ProyectGR3
             // 
             this.btnMNo.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnMNo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnMNo.Location = new System.Drawing.Point(293, 619);
+            this.btnMNo.Location = new System.Drawing.Point(391, 762);
+            this.btnMNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMNo.Name = "btnMNo";
-            this.btnMNo.Size = new System.Drawing.Size(55, 23);
+            this.btnMNo.Size = new System.Drawing.Size(73, 28);
             this.btnMNo.TabIndex = 73;
             this.btnMNo.Text = "NO";
             this.btnMNo.UseVisualStyleBackColor = false;
@@ -395,9 +399,10 @@ namespace ProyectGR3
             // 
             // btnMIr
             // 
-            this.btnMIr.Location = new System.Drawing.Point(525, 638);
+            this.btnMIr.Location = new System.Drawing.Point(700, 785);
+            this.btnMIr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMIr.Name = "btnMIr";
-            this.btnMIr.Size = new System.Drawing.Size(75, 23);
+            this.btnMIr.Size = new System.Drawing.Size(100, 28);
             this.btnMIr.TabIndex = 74;
             this.btnMIr.Text = "Ir";
             this.btnMIr.UseVisualStyleBackColor = true;
@@ -406,9 +411,10 @@ namespace ProyectGR3
             // btnFinalM
             // 
             this.btnFinalM.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnFinalM.Location = new System.Drawing.Point(556, 558);
+            this.btnFinalM.Location = new System.Drawing.Point(741, 687);
+            this.btnFinalM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFinalM.Name = "btnFinalM";
-            this.btnFinalM.Size = new System.Drawing.Size(60, 27);
+            this.btnFinalM.Size = new System.Drawing.Size(80, 33);
             this.btnFinalM.TabIndex = 75;
             this.btnFinalM.Text = "Finalizar";
             this.btnFinalM.UseVisualStyleBackColor = false;
@@ -424,19 +430,22 @@ namespace ProyectGR3
             this.gpMujer.Controls.Add(this.cmbMTalla);
             this.gpMujer.Controls.Add(this.pictureBox5);
             this.gpMujer.Controls.Add(this.pictureBox4);
-            this.gpMujer.Location = new System.Drawing.Point(12, 51);
+            this.gpMujer.Location = new System.Drawing.Point(16, 63);
+            this.gpMujer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gpMujer.Name = "gpMujer";
-            this.gpMujer.Size = new System.Drawing.Size(821, 448);
+            this.gpMujer.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gpMujer.Size = new System.Drawing.Size(1095, 551);
             this.gpMujer.TabIndex = 76;
             this.gpMujer.TabStop = false;
+            this.gpMujer.Enter += new System.EventHandler(this.gpMujer_Enter);
             // 
             // rbtMPrenda2
             // 
             this.rbtMPrenda2.AutoSize = true;
-            this.rbtMPrenda2.Location = new System.Drawing.Point(644, 203);
-            this.rbtMPrenda2.Margin = new System.Windows.Forms.Padding(2);
+            this.rbtMPrenda2.Location = new System.Drawing.Point(859, 250);
+            this.rbtMPrenda2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbtMPrenda2.Name = "rbtMPrenda2";
-            this.rbtMPrenda2.Size = new System.Drawing.Size(87, 17);
+            this.rbtMPrenda2.Size = new System.Drawing.Size(107, 20);
             this.rbtMPrenda2.TabIndex = 77;
             this.rbtMPrenda2.TabStop = true;
             this.rbtMPrenda2.Text = "Blusa Encaje";
@@ -445,10 +454,10 @@ namespace ProyectGR3
             // rbtMPrenda1
             // 
             this.rbtMPrenda1.AutoSize = true;
-            this.rbtMPrenda1.Location = new System.Drawing.Point(131, 203);
-            this.rbtMPrenda1.Margin = new System.Windows.Forms.Padding(2);
+            this.rbtMPrenda1.Location = new System.Drawing.Point(175, 250);
+            this.rbtMPrenda1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbtMPrenda1.Name = "rbtMPrenda1";
-            this.rbtMPrenda1.Size = new System.Drawing.Size(107, 17);
+            this.rbtMPrenda1.Size = new System.Drawing.Size(135, 20);
             this.rbtMPrenda1.TabIndex = 18;
             this.rbtMPrenda1.TabStop = true;
             this.rbtMPrenda1.Text = "Camiseta España";
@@ -457,10 +466,10 @@ namespace ProyectGR3
             // rbtMPrenda3
             // 
             this.rbtMPrenda3.AutoSize = true;
-            this.rbtMPrenda3.Location = new System.Drawing.Point(131, 421);
-            this.rbtMPrenda3.Margin = new System.Windows.Forms.Padding(2);
+            this.rbtMPrenda3.Location = new System.Drawing.Point(175, 518);
+            this.rbtMPrenda3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbtMPrenda3.Name = "rbtMPrenda3";
-            this.rbtMPrenda3.Size = new System.Drawing.Size(86, 17);
+            this.rbtMPrenda3.Size = new System.Drawing.Size(103, 20);
             this.rbtMPrenda3.TabIndex = 17;
             this.rbtMPrenda3.TabStop = true;
             this.rbtMPrenda3.Text = "Sueter Snow";
@@ -469,10 +478,10 @@ namespace ProyectGR3
             // rbtMPrenda4
             // 
             this.rbtMPrenda4.AutoSize = true;
-            this.rbtMPrenda4.Location = new System.Drawing.Point(644, 421);
-            this.rbtMPrenda4.Margin = new System.Windows.Forms.Padding(2);
+            this.rbtMPrenda4.Location = new System.Drawing.Point(859, 518);
+            this.rbtMPrenda4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbtMPrenda4.Name = "rbtMPrenda4";
-            this.rbtMPrenda4.Size = new System.Drawing.Size(108, 17);
+            this.rbtMPrenda4.Size = new System.Drawing.Size(133, 20);
             this.rbtMPrenda4.TabIndex = 16;
             this.rbtMPrenda4.TabStop = true;
             this.rbtMPrenda4.Text = "Pantalón Ultimate";
@@ -482,18 +491,19 @@ namespace ProyectGR3
             // 
             this.btnAtrasM.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnAtrasM.Image = ((System.Drawing.Image)(resources.GetObject("btnAtrasM.Image")));
-            this.btnAtrasM.Location = new System.Drawing.Point(17, 7);
+            this.btnAtrasM.Location = new System.Drawing.Point(23, 9);
+            this.btnAtrasM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAtrasM.Name = "btnAtrasM";
-            this.btnAtrasM.Size = new System.Drawing.Size(53, 38);
+            this.btnAtrasM.Size = new System.Drawing.Size(71, 47);
             this.btnAtrasM.TabIndex = 77;
             this.btnAtrasM.UseVisualStyleBackColor = false;
             this.btnAtrasM.Click += new System.EventHandler(this.btnAtrasM_Click);
             // 
             // VentanaMujer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(845, 673);
+            this.ClientSize = new System.Drawing.Size(1127, 828);
             this.Controls.Add(this.btnAtrasM);
             this.Controls.Add(this.cmbMColor);
             this.Controls.Add(this.btnFinalM);
@@ -523,7 +533,7 @@ namespace ProyectGR3
             this.Controls.Add(this.lblDama);
             this.Controls.Add(this.gpMujer);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "VentanaMujer";
             this.Text = "ROPA DE MUJER";
             this.Load += new System.EventHandler(this.VentanaMujer_Load);
