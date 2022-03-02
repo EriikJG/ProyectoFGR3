@@ -409,7 +409,7 @@ namespace ProyectGR3
             this.btnFinalM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFinalM.Location = new System.Drawing.Point(632, 532);
             this.btnFinalM.Name = "btnFinalM";
-            this.btnFinalM.Size = new System.Drawing.Size(86, 53);
+            this.btnFinalM.Size = new System.Drawing.Size(95, 53);
             this.btnFinalM.TabIndex = 75;
             this.btnFinalM.Text = "Facturar";
             this.btnFinalM.UseVisualStyleBackColor = false;
