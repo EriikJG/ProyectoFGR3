@@ -473,11 +473,12 @@
             // btnFinal
             // 
             this.btnFinal.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnFinal.Location = new System.Drawing.Point(543, 582);
+            this.btnFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinal.Location = new System.Drawing.Point(658, 535);
             this.btnFinal.Name = "btnFinal";
-            this.btnFinal.Size = new System.Drawing.Size(60, 27);
+            this.btnFinal.Size = new System.Drawing.Size(89, 61);
             this.btnFinal.TabIndex = 67;
-            this.btnFinal.Text = "Finalizar";
+            this.btnFinal.Text = "Facturar";
             this.btnFinal.UseVisualStyleBackColor = false;
             this.btnFinal.Click += new System.EventHandler(this.button1_Click);
             // 

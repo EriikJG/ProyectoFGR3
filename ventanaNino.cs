@@ -12,8 +12,9 @@ namespace ProyectGR3
 {
     public partial class ventanaNino : Form
     {
-        public double numero = VentanarRegistro.producto.precio.subtotal;
-        
+        public double numero = VentanarRegistro.persona.tarjeta.totales.subtotal;
+
+
         public ventanaNino()
         {
             InitializeComponent();
@@ -67,7 +68,8 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtNPrenda1.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
-                        VentanarRegistro.producto.precio.subtotal += 10;
+                        VentanarRegistro.producto.precioIndividual = 10.00;
+                        VentanarRegistro.persona.tarjeta.totales.subtotal  += 10;
                         this.Hide();
 
                         VentanaFacturacion facturar = new VentanaFacturacion();
@@ -87,7 +89,9 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtNPrenda2.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
-                        VentanarRegistro.producto.precio.subtotal += 5;
+                        VentanarRegistro.producto.precioIndividual = 5.00;
+                        VentanarRegistro.persona.tarjeta.totales.subtotal += 5;
+                        
                         this.Hide();
 
                         VentanaFacturacion facturar = new VentanaFacturacion();
@@ -106,7 +110,8 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtNPrenda3.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
-                        VentanarRegistro.producto.precio.subtotal += 8;
+                        VentanarRegistro.producto.precioIndividual = 8.00;
+                        VentanarRegistro.persona.tarjeta.totales.subtotal += 8;
                         this.Hide();
 
                         VentanaFacturacion facturar = new VentanaFacturacion();
@@ -126,7 +131,8 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtNPrenda4.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
-                        VentanarRegistro.producto.precio.subtotal += 20;
+                        VentanarRegistro.producto.precioIndividual = 20.00;
+                        VentanarRegistro.persona.tarjeta.totales.subtotal += 20;
                         this.Hide();
 
                         VentanaFacturacion facturar = new VentanaFacturacion();
@@ -160,11 +166,12 @@ namespace ProyectGR3
                     {
                         if (cmbTallaN.SelectedItem != null && cmbColorN.SelectedItem != null)
                         {
-                            VentanarRegistro.producto.nombreProducto = rbtNPrenda1.Text;
-                            VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
-                            VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
-                             VentanarRegistro.producto.precio.subtotal += 10;
-                            contador++;
+                        VentanarRegistro.producto.nombreProducto = rbtNPrenda1.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
+                        VentanarRegistro.producto.precioIndividual = 10.00;
+                        VentanarRegistro.persona.tarjeta.totales.subtotal += 10;
+                        contador++;
                         }
                         else
                         {
@@ -176,13 +183,13 @@ namespace ProyectGR3
                     if (rbtNPrenda2.Checked)
                     {
                         if (cmbTallaN.SelectedItem != null && cmbColorN.SelectedItem != null)
-                        {
-                            VentanarRegistro.producto.nombreProducto = rbtNPrenda2.Text;
-                            VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
-                            VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
-                            VentanarRegistro.producto.precio.subtotal += 5;
-                            contador++;
-                        }
+                    {
+                        VentanarRegistro.producto.nombreProducto = rbtNPrenda2.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
+                        VentanarRegistro.producto.precioIndividual = 5.00;
+                        VentanarRegistro.persona.tarjeta.totales.subtotal += 5;
+                    }
                         else
                         {
                            MessageBox.Show("Selecciona talla y color ", "Advertencia");
@@ -193,11 +200,12 @@ namespace ProyectGR3
                     {
                         if (cmbTallaN.SelectedItem != null && cmbColorN.SelectedItem != null)
                         {
-                            VentanarRegistro.producto.nombreProducto = rbtNPrenda3.Text;
-                            VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
-                            VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
-                            VentanarRegistro.producto.precio.subtotal += 8;
-                            contador++;
+                        VentanarRegistro.producto.nombreProducto = rbtNPrenda3.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
+                        VentanarRegistro.producto.precioIndividual = 8.00;
+                        VentanarRegistro.persona.tarjeta.totales.subtotal += 8;
+                        contador++;
                         }
                         else
                         {
@@ -210,11 +218,12 @@ namespace ProyectGR3
                     {
                         if (cmbTallaN.SelectedItem != null && cmbColorN.SelectedItem != null)
                         {
-                            VentanarRegistro.producto.nombreProducto = rbtNPrenda4.Text;
-                            VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
-                            VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
-                            VentanarRegistro.producto.precio.subtotal += 20;
-                            contador++;
+                        VentanarRegistro.producto.nombreProducto = rbtNPrenda4.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbColorN.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbTallaN.SelectedText);
+                        VentanarRegistro.producto.precioIndividual = 20.00;
+                        VentanarRegistro.persona.tarjeta.totales.subtotal += 20;
+                        contador++;
                         }
                         else
                         {
@@ -227,7 +236,7 @@ namespace ProyectGR3
                     MessageBox.Show("SELECIONE AL MENOS UNO ", "Advertencia");
                 }
 
-            numero = VentanarRegistro.producto.precio.subtotal;
+            numero = VentanarRegistro.persona.tarjeta.totales.subtotal;
             if (contador != 0)
             {
                 btnFinal.Enabled = true;
@@ -304,7 +313,7 @@ namespace ProyectGR3
 
                 VentanaCategoria redireccionar = new VentanaCategoria();
                 redireccionar.Show();
-                VentanarRegistro.producto.precio.subtotal = 0;
+                VentanarRegistro.persona.tarjeta.totales.subtotal = 0;
 
             }    
                
