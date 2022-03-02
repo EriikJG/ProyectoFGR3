@@ -37,7 +37,6 @@
             this.txtClave = new System.Windows.Forms.TextBox();
             this.lblTarjeta2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txaDescripcion = new System.Windows.Forms.RichTextBox();
             this.lblDireccion = new System.Windows.Forms.Label();
             this.lblCalleP = new System.Windows.Forms.Label();
             this.lblCalleS = new System.Windows.Forms.Label();
@@ -53,8 +52,12 @@
             this.lblCorreo = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.btnAtrasF = new System.Windows.Forms.Button();
+            this.txaDescripcion = new System.Windows.Forms.RichTextBox();
+            this.btnCerrarF = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picbImagen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -130,18 +133,10 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "XXX";
             // 
-            // txaDescripcion
-            // 
-            this.txaDescripcion.Location = new System.Drawing.Point(118, 195);
-            this.txaDescripcion.Name = "txaDescripcion";
-            this.txaDescripcion.Size = new System.Drawing.Size(530, 255);
-            this.txaDescripcion.TabIndex = 9;
-            this.txaDescripcion.Text = "";
-            // 
             // lblDireccion
             // 
             this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(35, 476);
+            this.lblDireccion.Location = new System.Drawing.Point(47, 236);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(55, 13);
             this.lblDireccion.TabIndex = 10;
@@ -150,7 +145,7 @@
             // lblCalleP
             // 
             this.lblCalleP.AutoSize = true;
-            this.lblCalleP.Location = new System.Drawing.Point(36, 500);
+            this.lblCalleP.Location = new System.Drawing.Point(41, 271);
             this.lblCalleP.Name = "lblCalleP";
             this.lblCalleP.Size = new System.Drawing.Size(76, 13);
             this.lblCalleP.TabIndex = 11;
@@ -159,7 +154,7 @@
             // lblCalleS
             // 
             this.lblCalleS.AutoSize = true;
-            this.lblCalleS.Location = new System.Drawing.Point(36, 531);
+            this.lblCalleS.Location = new System.Drawing.Point(27, 311);
             this.lblCalleS.Name = "lblCalleS";
             this.lblCalleS.Size = new System.Drawing.Size(90, 13);
             this.lblCalleS.TabIndex = 12;
@@ -168,7 +163,7 @@
             // lblHNCasa
             // 
             this.lblHNCasa.AutoSize = true;
-            this.lblHNCasa.Location = new System.Drawing.Point(41, 562);
+            this.lblHNCasa.Location = new System.Drawing.Point(53, 354);
             this.lblHNCasa.Name = "lblHNCasa";
             this.lblHNCasa.Size = new System.Drawing.Size(49, 13);
             this.lblHNCasa.TabIndex = 13;
@@ -176,21 +171,21 @@
             // 
             // txtCalleP
             // 
-            this.txtCalleP.Location = new System.Drawing.Point(130, 497);
+            this.txtCalleP.Location = new System.Drawing.Point(118, 268);
             this.txtCalleP.Name = "txtCalleP";
             this.txtCalleP.Size = new System.Drawing.Size(260, 20);
             this.txtCalleP.TabIndex = 14;
             // 
             // txtCalleS
             // 
-            this.txtCalleS.Location = new System.Drawing.Point(130, 531);
+            this.txtCalleS.Location = new System.Drawing.Point(118, 308);
             this.txtCalleS.Name = "txtCalleS";
             this.txtCalleS.Size = new System.Drawing.Size(260, 20);
             this.txtCalleS.TabIndex = 15;
             // 
             // txtNCasa
             // 
-            this.txtNCasa.Location = new System.Drawing.Point(130, 559);
+            this.txtNCasa.Location = new System.Drawing.Point(118, 354);
             this.txtNCasa.Name = "txtNCasa";
             this.txtNCasa.Size = new System.Drawing.Size(100, 20);
             this.txtNCasa.TabIndex = 16;
@@ -199,7 +194,7 @@
             // 
             this.btnRFinalizar.BackColor = System.Drawing.Color.YellowGreen;
             this.btnRFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRFinalizar.Location = new System.Drawing.Point(455, 497);
+            this.btnRFinalizar.Location = new System.Drawing.Point(289, 354);
             this.btnRFinalizar.Name = "btnRFinalizar";
             this.btnRFinalizar.Size = new System.Drawing.Size(75, 50);
             this.btnRFinalizar.TabIndex = 17;
@@ -259,9 +254,9 @@
             // 
             this.button1.BackColor = System.Drawing.Color.OrangeRed;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(661, 576);
+            this.button1.Location = new System.Drawing.Point(410, 361);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 59);
+            this.button1.Size = new System.Drawing.Size(75, 36);
             this.button1.TabIndex = 23;
             this.button1.Text = "Cancelar";
             this.button1.UseVisualStyleBackColor = false;
@@ -278,11 +273,44 @@
             this.btnAtrasF.UseVisualStyleBackColor = false;
             this.btnAtrasF.Click += new System.EventHandler(this.btnAtrasF_Click);
             // 
+            // txaDescripcion
+            // 
+            this.txaDescripcion.Location = new System.Drawing.Point(30, 412);
+            this.txaDescripcion.Name = "txaDescripcion";
+            this.txaDescripcion.Size = new System.Drawing.Size(515, 223);
+            this.txaDescripcion.TabIndex = 75;
+            this.txaDescripcion.Text = "";
+            // 
+            // btnCerrarF
+            // 
+            this.btnCerrarF.BackColor = System.Drawing.Color.Firebrick;
+            this.btnCerrarF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarF.Location = new System.Drawing.Point(682, 594);
+            this.btnCerrarF.Name = "btnCerrarF";
+            this.btnCerrarF.Size = new System.Drawing.Size(82, 41);
+            this.btnCerrarF.TabIndex = 76;
+            this.btnCerrarF.Text = "Cerrar";
+            this.btnCerrarF.UseVisualStyleBackColor = false;
+            this.btnCerrarF.Click += new System.EventHandler(this.btnCerrarF_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(506, 176);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(258, 198);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 77;
+            this.pictureBox2.TabStop = false;
+            // 
             // VentanaFacturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 647);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.btnCerrarF);
+            this.Controls.Add(this.txaDescripcion);
             this.Controls.Add(this.btnAtrasF);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblCorreo);
@@ -298,7 +326,6 @@
             this.Controls.Add(this.lblCalleS);
             this.Controls.Add(this.lblCalleP);
             this.Controls.Add(this.lblDireccion);
-            this.Controls.Add(this.txaDescripcion);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblTarjeta2);
             this.Controls.Add(this.txtClave);
@@ -307,12 +334,15 @@
             this.Controls.Add(this.lblTarjeta);
             this.Controls.Add(this.picbImagen);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "VentanaFacturacion";
             this.Text = "Facturación";
             this.Load += new System.EventHandler(this.VentanaFacturacion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picbImagen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -328,7 +358,6 @@
         private System.Windows.Forms.TextBox txtClave;
         private System.Windows.Forms.Label lblTarjeta2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox txaDescripcion;
         private System.Windows.Forms.Label lblDireccion;
         private System.Windows.Forms.Label lblCalleP;
         private System.Windows.Forms.Label lblCalleS;
@@ -344,5 +373,8 @@
         private System.Windows.Forms.Label lblCorreo;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnAtrasF;
+        private System.Windows.Forms.RichTextBox txaDescripcion;
+        private System.Windows.Forms.Button btnCerrarF;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
