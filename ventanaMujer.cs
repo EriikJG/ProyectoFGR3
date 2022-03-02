@@ -12,14 +12,19 @@ namespace ProyectGR3
 {
     public partial class VentanaMujer : Form
     {
+<<<<<<< HEAD
         public double numero = VentanarRegistro.persona.tarjeta.totales.subtotal;
         public VentanaMujer ()
+=======
+        public VentanaMujer()
+>>>>>>> parent of 58824e4 (cambios normales)
         {
             InitializeComponent();
         }
 
         private void VentanaMujer_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             lblMPregunta.Enabled = true;
             btnMNo.Enabled = false;
             btnMSi.Enabled = true;
@@ -335,9 +340,9 @@ namespace ProyectGR3
         private void btnFinalM_Click(object sender, EventArgs e)
         {
             this.Hide();
+=======
+>>>>>>> parent of 58824e4 (cambios normales)
 
-            VentanaFacturacion facturar = new VentanaFacturacion();
-            facturar.Show();
         }
     }
 }
