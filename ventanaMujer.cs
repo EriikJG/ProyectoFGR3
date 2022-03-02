@@ -311,5 +311,10 @@ namespace ProyectGR3
             VentanaFacturacion facturar = new VentanaFacturacion();
             facturar.Show();
         }
+
+        private void gpMujer_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
