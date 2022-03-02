@@ -285,7 +285,7 @@
             // 
             this.btnCerrarF.BackColor = System.Drawing.Color.Firebrick;
             this.btnCerrarF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrarF.Location = new System.Drawing.Point(692, 594);
+            this.btnCerrarF.Location = new System.Drawing.Point(682, 594);
             this.btnCerrarF.Name = "btnCerrarF";
             this.btnCerrarF.Size = new System.Drawing.Size(82, 41);
             this.btnCerrarF.TabIndex = 76;
