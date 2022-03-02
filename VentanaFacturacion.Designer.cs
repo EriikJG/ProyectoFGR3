@@ -199,7 +199,7 @@
             // 
             this.btnRFinalizar.BackColor = System.Drawing.Color.YellowGreen;
             this.btnRFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRFinalizar.Location = new System.Drawing.Point(455, 497);
+            this.btnRFinalizar.Location = new System.Drawing.Point(441, 494);
             this.btnRFinalizar.Name = "btnRFinalizar";
             this.btnRFinalizar.Size = new System.Drawing.Size(75, 50);
             this.btnRFinalizar.TabIndex = 17;
