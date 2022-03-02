@@ -522,8 +522,10 @@ namespace ProyectGR3
             this.Controls.Add(this.lblColor);
             this.Controls.Add(this.lblDama);
             this.Controls.Add(this.gpMujer);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
             this.Name = "VentanaMujer";
             this.Text = "ROPA DE MUJER";
             this.Load += new System.EventHandler(this.VentanaMujer_Load);
