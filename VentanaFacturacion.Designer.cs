@@ -37,7 +37,7 @@
             this.txtClave = new System.Windows.Forms.TextBox();
             this.lblTarjeta2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txaDescripcion = new System.Windows.Forms.RichTextBox();
             this.lblDireccion = new System.Windows.Forms.Label();
             this.lblCalleP = new System.Windows.Forms.Label();
             this.lblCalleS = new System.Windows.Forms.Label();
@@ -128,13 +128,14 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "XXX";
             // 
-            // richTextBox1
+            // txaDescripcion
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(118, 195);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(530, 255);
-            this.richTextBox1.TabIndex = 9;
-            this.richTextBox1.Text = "";
+            this.txaDescripcion.Location = new System.Drawing.Point(118, 195);
+            this.txaDescripcion.Name = "txaDescripcion";
+            this.txaDescripcion.Size = new System.Drawing.Size(530, 255);
+            this.txaDescripcion.TabIndex = 9;
+            this.txaDescripcion.Text = "";
+  
             // 
             // lblDireccion
             // 
@@ -201,6 +202,7 @@
             this.btnRFinalizar.TabIndex = 17;
             this.btnRFinalizar.Text = "Finalizar";
             this.btnRFinalizar.UseVisualStyleBackColor = true;
+            this.btnRFinalizar.Click += new System.EventHandler(this.btnRFinalizar_Click);
             // 
             // pictureBox1
             // 
@@ -268,7 +270,7 @@
             this.Controls.Add(this.lblCalleS);
             this.Controls.Add(this.lblCalleP);
             this.Controls.Add(this.lblDireccion);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.txaDescripcion);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblTarjeta2);
             this.Controls.Add(this.txtClave);
@@ -298,7 +300,7 @@
         private System.Windows.Forms.TextBox txtClave;
         private System.Windows.Forms.Label lblTarjeta2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txaDescripcion;
         private System.Windows.Forms.Label lblDireccion;
         private System.Windows.Forms.Label lblCalleP;
         private System.Windows.Forms.Label lblCalleS;
