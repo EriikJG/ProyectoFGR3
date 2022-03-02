@@ -55,7 +55,7 @@ namespace ProyectGR3
 
         private void VentanaCategoria_Load(object sender, EventArgs e)
         {
-            
+           
         }
     }
 }
