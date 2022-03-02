@@ -21,6 +21,7 @@ namespace ProyectGR3
 
         private void VentanaHombre_Load(object sender, EventArgs e)
         {
+            
             lblHPregunta.Enabled = true;
             btnHNo.Enabled = false;
             btnHSi.Enabled = true;
@@ -60,6 +61,7 @@ namespace ProyectGR3
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda1.Text;
                         VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
+                        VentanarRegistro.producto.precioIndividual = 10.00;
                         VentanarRegistro.producto.precio.subtotal += 10;
                         this.Hide();
 
@@ -304,5 +306,7 @@ namespace ProyectGR3
             VentanaFacturacion facturar = new VentanaFacturacion();
             facturar.Show();
         }
+
+ 
     }
 }

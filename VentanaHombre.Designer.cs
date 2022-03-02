@@ -454,6 +454,7 @@
             this.gpHombre.Size = new System.Drawing.Size(821, 463);
             this.gpHombre.TabIndex = 72;
             this.gpHombre.TabStop = false;
+            
             // 
             // rbtHPrenda3
             // 

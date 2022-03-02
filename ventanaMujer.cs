@@ -150,10 +150,7 @@ namespace ProyectGR3
                         VentanarRegistro.producto.color = Convert.ToString(cmbMColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbMTalla.SelectedText);
                         VentanarRegistro.producto.precio.subtotal += 10;
-                        this.Hide();
-
-                        VentanaFacturacion facturar = new VentanaFacturacion();
-                        facturar.Show();
+                        contador2++;
                     }
                     else
                     {
@@ -170,10 +167,7 @@ namespace ProyectGR3
                         VentanarRegistro.producto.color = Convert.ToString(cmbMColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbMTalla.SelectedText);
                         VentanarRegistro.producto.precio.subtotal += 5;
-                        this.Hide();
-
-                        VentanaFacturacion facturar = new VentanaFacturacion();
-                        facturar.Show();
+                        contador2++;
                     }
                     else
                     {
@@ -189,10 +183,7 @@ namespace ProyectGR3
                         VentanarRegistro.producto.color = Convert.ToString(cmbMColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbMTalla.SelectedText);
                         VentanarRegistro.producto.precio.subtotal += 8;
-                        this.Hide();
-
-                        VentanaFacturacion facturar = new VentanaFacturacion();
-                        facturar.Show();
+                        contador2++;
                     }
                     else
                     {
@@ -209,10 +200,7 @@ namespace ProyectGR3
                         VentanarRegistro.producto.color = Convert.ToString(cmbMColor.SelectedText);
                         VentanarRegistro.producto.talla = Convert.ToString(cmbMTalla.SelectedText);
                         VentanarRegistro.producto.precio.subtotal += 20;
-                        this.Hide();
-
-                        VentanaFacturacion facturar = new VentanaFacturacion();
-                        facturar.Show();
+                        contador2++;
                     }
                     else
                     {

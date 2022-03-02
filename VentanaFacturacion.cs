@@ -12,7 +12,8 @@ namespace ProyectGR3
 {
     public partial class VentanaFacturacion : Form
     {
-        
+        public double total = VentanarRegistro.producto.precio.subtotal;
+       
         public VentanaFacturacion()
         {
             InitializeComponent();
@@ -23,6 +24,14 @@ namespace ProyectGR3
         private void VentanaFacturacion_Load(object sender, EventArgs e)
         {
            
+
         }
+
+        private void btnRFinalizar_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+ 
     }
 }

@@ -30,6 +30,7 @@ namespace ProyectGR3
             public string color;
             public string categoria;
             public Precio precio;
+            public double precioIndividual;
         }
         public struct Pago
         {
@@ -57,6 +58,7 @@ namespace ProyectGR3
         {
             producto.precio.subtotal = 0;
             producto.precio.total = 0;
+
         }
          
         
