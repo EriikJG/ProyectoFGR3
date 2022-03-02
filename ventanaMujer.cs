@@ -20,6 +20,7 @@ namespace ProyectGR3
 
         private void VentanaMujer_Load(object sender, EventArgs e)
         {
+
             lblMPregunta.Enabled = true;
             btnMNo.Enabled = false;
             btnMSi.Enabled = true;
