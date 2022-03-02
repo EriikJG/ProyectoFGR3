@@ -291,7 +291,7 @@
             this.btnCerrarF.TabIndex = 76;
             this.btnCerrarF.Text = "Cerrar";
             this.btnCerrarF.UseVisualStyleBackColor = false;
-            this.btnCerrarF.Click += new System.EventHandler(this.btnCerrarF_Click);
+           
             // 
             // pictureBox2
             // 
