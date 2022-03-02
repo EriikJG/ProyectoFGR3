@@ -30,6 +30,10 @@ namespace ProyectGR3
             public string color;
             public string categoria;
             public Precio precio;
+<<<<<<< HEAD
+=======
+            public double precioIndividual;
+>>>>>>> parent of c09f69b (cambios finales2.0)
         }
         public struct Pago
         {
@@ -57,6 +61,10 @@ namespace ProyectGR3
         {
             producto.precio.subtotal = 0;
             producto.precio.total = 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of c09f69b (cambios finales2.0)
         }
          
         
