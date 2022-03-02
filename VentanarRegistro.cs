@@ -12,6 +12,11 @@ namespace ProyectGR3
 {
     public partial class VentanarRegistro : Form
     {
+       public struct Precio
+        {
+            public double subtotal;
+            public double total;
+        }
         public struct Direccion
         {
             public string calleP;
@@ -24,14 +29,12 @@ namespace ProyectGR3
             public string talla;
             public string color;
             public string categoria;
-            public double precio;
+            public Precio precio;
         }
         public struct Pago
         {
             public string numeroTarjeta;
             public int clave;
-            public double total;
-            public double subtotal;
         }
 
         public struct Persona
@@ -43,6 +46,7 @@ namespace ProyectGR3
         }
         static public Producto producto;
         static public Persona persona;
+    
         public VentanarRegistro()
         {
             InitializeComponent();
@@ -51,7 +55,8 @@ namespace ProyectGR3
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+            producto.precio.subtotal = 0;
+            producto.precio.total = 0;
         }
          
         
