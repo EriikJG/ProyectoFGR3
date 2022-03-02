@@ -345,11 +345,12 @@
             // btnFinalH
             // 
             this.btnFinalH.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnFinalH.Location = new System.Drawing.Point(533, 576);
+            this.btnFinalH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalH.Location = new System.Drawing.Point(652, 537);
             this.btnFinalH.Name = "btnFinalH";
-            this.btnFinalH.Size = new System.Drawing.Size(60, 27);
+            this.btnFinalH.Size = new System.Drawing.Size(83, 50);
             this.btnFinalH.TabIndex = 68;
-            this.btnFinalH.Text = "Finalizar";
+            this.btnFinalH.Text = "Factura";
             this.btnFinalH.UseVisualStyleBackColor = false;
             this.btnFinalH.Click += new System.EventHandler(this.btnFinalH_Click);
             // 

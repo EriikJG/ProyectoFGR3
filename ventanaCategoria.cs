@@ -23,7 +23,10 @@ namespace ProyectGR3
             VentanarRegistro.producto.categoria =  cbmCategoria.Text;
             
                 
+            if(cbmCategoria.SelectedItem != null)
+            {
 
+           
                 if (VentanarRegistro.producto.categoria == "Niños")
                 {
                     this.Hide();
@@ -44,11 +47,16 @@ namespace ProyectGR3
                 {
                     this.Hide();
 
-                    VentanaHombre ventanaMujer = new VentanaHombre();
-                    ventanaMujer.Show();
+                    VentanaMujer ventanamujer = new VentanaMujer();
+                    ventanamujer.Show();
                 }
+            }
+            else
+            {
+                MessageBox.Show("Escoja una opcion", "Advertencia");
+            }
 
-            
+
 
 
         }
