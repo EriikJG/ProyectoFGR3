@@ -514,9 +514,7 @@
             this.Controls.Add(this.lblTallaN);
             this.Controls.Add(this.lblNiños);
             this.Controls.Add(this.gpNinos);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
             this.Name = "ventanaNino";
             this.Text = "Niños";
             this.Load += new System.EventHandler(this.ventanaNino_Load);

@@ -350,7 +350,7 @@
             this.btnFinalH.Name = "btnFinalH";
             this.btnFinalH.Size = new System.Drawing.Size(83, 50);
             this.btnFinalH.TabIndex = 68;
-            this.btnFinalH.Text = "Facturar";
+            this.btnFinalH.Text = "Factura";
             this.btnFinalH.UseVisualStyleBackColor = false;
             this.btnFinalH.Click += new System.EventHandler(this.btnFinalH_Click);
             // 
@@ -515,9 +515,7 @@
             this.Controls.Add(this.lblVHombre);
             this.Controls.Add(this.gpHombre);
             this.ForeColor = System.Drawing.Color.Black;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
             this.Name = "VentanaHombre";
             this.Text = "HOMBRE";
             this.Load += new System.EventHandler(this.VentanaHombre_Load);

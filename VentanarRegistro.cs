@@ -36,7 +36,7 @@ namespace ProyectGR3
         {
             public Precio totales;
             public string numeroTarjeta;
-            public string clave;
+            public int clave;
         }
 
         public struct Persona
@@ -48,11 +48,7 @@ namespace ProyectGR3
         }
         static public Producto producto;
         static public Persona persona;
-        
-     
-
-        static public int contadorUniversal;
-
+    
         public VentanarRegistro()
         {
             InitializeComponent();
@@ -63,7 +59,6 @@ namespace ProyectGR3
         {
             persona.tarjeta.totales.subtotal = 0;
             persona.tarjeta.totales.total = 0;
-            contadorUniversal = 0;
 
         }
          

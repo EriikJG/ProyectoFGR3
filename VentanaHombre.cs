@@ -59,8 +59,8 @@ namespace ProyectGR3
                     if (cmbHTalla.SelectedItem != null && cmbHColor.SelectedItem != null)
                     {
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda1.Text;
-                        VentanarRegistro.producto.color = cmbHColor.Text;
-                        VentanarRegistro.producto.talla =cmbHTalla.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
                         VentanarRegistro.producto.precioIndividual = 5.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 5;
                         this.Hide();
@@ -80,8 +80,8 @@ namespace ProyectGR3
                     if (cmbHTalla.SelectedItem != null && cmbHColor.SelectedItem != null)
                     {
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda2.Text;
-                        VentanarRegistro.producto.color = cmbHColor.Text;
-                        VentanarRegistro.producto.talla = cmbHTalla.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
                         VentanarRegistro.producto.precioIndividual = 12.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 12;
                         this.Hide();
@@ -100,8 +100,8 @@ namespace ProyectGR3
                     if (cmbHTalla.SelectedItem != null && cmbHColor.SelectedItem != null)
                     {
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda3.Text;
-                        VentanarRegistro.producto.color = cmbHColor.Text;
-                        VentanarRegistro.producto.talla = cmbHTalla.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
                         VentanarRegistro.producto.precioIndividual = 8.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 8;
                         this.Hide();
@@ -121,8 +121,8 @@ namespace ProyectGR3
                     if (cmbHTalla.SelectedItem != null && cmbHColor.SelectedItem != null)
                     {
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda4.Text;
-                        VentanarRegistro.producto.color = cmbHColor.Text;
-                        VentanarRegistro.producto.talla = cmbHTalla.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
                         VentanarRegistro.producto.precioIndividual = 20.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 20;
                         this.Hide();
@@ -155,8 +155,8 @@ namespace ProyectGR3
                     if (cmbHTalla.SelectedItem != null && cmbHColor.SelectedItem != null)
                     {
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda1.Text;
-                        VentanarRegistro.producto.color = cmbHColor.Text;
-                        VentanarRegistro.producto.talla = cmbHTalla.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
                         VentanarRegistro.producto.precioIndividual = 5.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 5;
                         contador1++;
@@ -173,8 +173,8 @@ namespace ProyectGR3
                     if (cmbHTalla.SelectedItem != null && cmbHColor.SelectedItem != null)
                     {
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda2.Text;
-                        VentanarRegistro.producto.color = cmbHColor.Text;
-                        VentanarRegistro.producto.talla = cmbHTalla.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
                         VentanarRegistro.producto.precioIndividual = 12.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 12;
                         contador1++;
@@ -190,8 +190,8 @@ namespace ProyectGR3
                     if (cmbHTalla.SelectedItem != null && cmbHColor.SelectedItem != null)
                     {
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda3.Text;
-                        VentanarRegistro.producto.color = cmbHColor.Text;
-                        VentanarRegistro.producto.talla = cmbHTalla.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
                         VentanarRegistro.producto.precioIndividual = 8.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 8;
                         contador1++;
@@ -208,8 +208,8 @@ namespace ProyectGR3
                     if (cmbHTalla.SelectedItem != null && cmbHColor.SelectedItem != null)
                     {
                         VentanarRegistro.producto.nombreProducto = rbtHPrenda4.Text;
-                        VentanarRegistro.producto.color = cmbHColor.Text;
-                        VentanarRegistro.producto.talla = cmbHTalla.Text;
+                        VentanarRegistro.producto.color = Convert.ToString(cmbHColor.SelectedText);
+                        VentanarRegistro.producto.talla = Convert.ToString(cmbHTalla.SelectedText);
                         VentanarRegistro.producto.precioIndividual = 20.00;
                         VentanarRegistro.persona.tarjeta.totales.subtotal += 20;
                         contador1++;
