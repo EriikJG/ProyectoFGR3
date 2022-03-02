@@ -51,7 +51,7 @@ namespace ProyectGR3
                  + "\n USUARIO:" + "\nNombre:" + VentanarRegistro.persona.nombre + "\nCorreo: " + VentanarRegistro.persona.correo + "\n" + "\nDIRECCIÓN: " +
                  "\nCalle Principal:" + VentanarRegistro.persona.datosD.calleP + "\nCalle Secundaria: " + VentanarRegistro.persona.datosD.calleS +
                  "\nNúmero de Casa: " + VentanarRegistro.persona.datosD.Ncasa +"\n" + "\n TOTALES A PAGAR:  " + " \nSubtotal Compra: $" + VentanarRegistro.persona.tarjeta.totales.subtotal
-                 + " \nTotal Compra: $" + total;
+                 + " \nTotal Compra:  $" + total;
 
                 MessageBox.Show("Gracias por la compra", "Mensaje");
 
