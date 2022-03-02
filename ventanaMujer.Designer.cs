@@ -406,11 +406,12 @@ namespace ProyectGR3
             // btnFinalM
             // 
             this.btnFinalM.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnFinalM.Location = new System.Drawing.Point(556, 558);
+            this.btnFinalM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalM.Location = new System.Drawing.Point(632, 532);
             this.btnFinalM.Name = "btnFinalM";
-            this.btnFinalM.Size = new System.Drawing.Size(60, 27);
+            this.btnFinalM.Size = new System.Drawing.Size(95, 53);
             this.btnFinalM.TabIndex = 75;
-            this.btnFinalM.Text = "Finalizar";
+            this.btnFinalM.Text = "Facturar";
             this.btnFinalM.UseVisualStyleBackColor = false;
             this.btnFinalM.Click += new System.EventHandler(this.btnFinalM_Click);
             // 
@@ -494,13 +495,13 @@ namespace ProyectGR3
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(845, 673);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnAtrasM);
             this.Controls.Add(this.cmbMColor);
             this.Controls.Add(this.btnFinalM);
             this.Controls.Add(this.btnMIr);
             this.Controls.Add(this.btnMNo);
             this.Controls.Add(this.btnMSi);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox8);
