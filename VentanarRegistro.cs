@@ -29,12 +29,10 @@ namespace ProyectGR3
             public string talla;
             public string color;
             public string categoria;
-           
-            public double precioIndividual;
+            public Precio precio;
         }
         public struct Pago
         {
-            public Precio totales;
             public string numeroTarjeta;
             public int clave;
         }
@@ -57,9 +55,8 @@ namespace ProyectGR3
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            persona.tarjeta.totales.subtotal = 0;
-            persona.tarjeta.totales.total = 0;
-
+            producto.precio.subtotal = 0;
+            producto.precio.total = 0;
         }
          
         
