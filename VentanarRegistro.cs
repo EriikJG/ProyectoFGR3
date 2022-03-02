@@ -36,7 +36,7 @@ namespace ProyectGR3
         {
             public Precio totales;
             public string numeroTarjeta;
-            public int clave;
+            public String clave;
         }
 
         public struct Persona

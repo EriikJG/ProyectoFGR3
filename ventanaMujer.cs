@@ -12,7 +12,7 @@ namespace ProyectGR3
 {
     public partial class VentanaMujer : Form
     {
-        public double numero = VentanarRegistro.producto.precio.subtotal;
+        public double numero = VentanarRegistro.persona.tarjeta.totales.subtotal;
         public VentanaMujer ()
         {
             InitializeComponent();
