@@ -44,7 +44,7 @@ namespace ProyectGR3
                 {
                     this.Hide();
 
-                    VentanaMujer ventanaMujer = new VentanaMujer();
+                    VentanaHombre ventanaMujer = new VentanaHombre();
                     ventanaMujer.Show();
                 }
 
