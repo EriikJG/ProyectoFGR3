@@ -10,21 +10,26 @@ using System.Windows.Forms;
 
 namespace ProyectGR3
 {
-    public partial class VentanaHombre : Form
+    public partial class ventanaNino : Form
     {
-        public VentanaHombre()
+
+        public ventanaNino()
         {
             InitializeComponent();
         }
 
-
-        private void VentanaHombre_Load(object sender, EventArgs e)
+        private void ventanaNino_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void btnHComprar_Click(object sender, EventArgs e)
+        private void btnNComprar_Click(object sender, EventArgs e)
         {
+
+            this.Hide();
+
+            VentanaFacturacion facturar = new VentanaFacturacion();
+            facturar.Show();
 
         }
     }

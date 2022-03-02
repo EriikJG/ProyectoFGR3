@@ -12,6 +12,7 @@ namespace ProyectGR3
 {
     public partial class VentanarRegistro : Form
     {
+         Program.Persona cliente = new Program.Persona();
         public VentanarRegistro()
         {
             InitializeComponent();
@@ -55,12 +56,15 @@ namespace ProyectGR3
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
+
+            cliente.nombre = txtNombre.Text;
+            cliente.correo = txtCorreo.Text;
+
             this.Hide();
 
-            VentanaCategoria newframe = new VentanaCategoria();
-            newframe.Show();
+            VentanaCategoria newform2 = new VentanaCategoria();
+            newform2.Show();
 
-            
         }
     }
 }

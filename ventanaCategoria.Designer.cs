@@ -97,6 +97,7 @@
             this.btnSiguiente.TabIndex = 5;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = true;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // VentanaCategoria
             // 
@@ -112,6 +113,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VentanaCategoria";
             this.Text = "Categoría";
+            this.Load += new System.EventHandler(this.VentanaCategoria_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

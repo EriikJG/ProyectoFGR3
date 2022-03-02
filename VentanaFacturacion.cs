@@ -17,6 +17,8 @@ namespace ProyectGR3
             InitializeComponent();
         }
 
+
+
         private void VentanaFacturacion_Load(object sender, EventArgs e)
         {
 

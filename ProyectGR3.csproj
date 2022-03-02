@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ventanaNino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaNino.Designer.cs">
+      <DependentUpon>ventanaNino.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,11 +94,11 @@
     <Compile Include="VentanarRegistro.Designer.cs">
       <DependentUpon>VentanarRegistro.cs</DependentUpon>
     </Compile>
-    <Compile Include="ventanaMujer.cs">
+    <Compile Include="VentanaMujer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ventanaMujer.Designer.cs">
-      <DependentUpon>ventanaMujer.cs</DependentUpon>
+    <Compile Include="VentanaMujer.Designer.cs">
+      <DependentUpon>VentanaMujer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaHombre.resx">
       <DependentUpon>VentanaHombre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventanaNino.resx">
+      <DependentUpon>ventanaNino.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanarRegistro.resx">
       <DependentUpon>VentanarRegistro.cs</DependentUpon>
@@ -118,8 +127,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ventanaMujer.resx">
-      <DependentUpon>ventanaMujer.cs</DependentUpon>
+    <EmbeddedResource Include="VentanaMujer.resx">
+      <DependentUpon>VentanaMujer.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
